@@ -1,11 +1,11 @@
 {
-  "version": "0.1.6",
-  "notes": "v0.1.6: Fix 24-bit WAV decoding (clap, bell, hat, ride, bass)",
-  "pub_date": "2026-04-10T04:23:34Z",
+  "version": "0.1.7",
+  "notes": "v0.1.7: Properly decode 24-bit metronome samples via soundfile",
+  "pub_date": "2026-04-10T04:29:33Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjUxZEgvQkxEL3pvWmxVTW9adkM0OWordlNFdG5jOHlHT0E5Y3pyRDgwdk5PZDdJWktLR2QwZ1VmWUpyN01LS1U2MGJHNmQ5M3lTd1ZxY2R0QnBXU0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1Nzk1MDE0CWZpbGU6SmFtU3luY18wLjEuNl94NjQtc2V0dXAuZXhlCnFjWkY1OVVWMHkzVTBrVzRNTk5lS25FblFPamkyejNVbUVkQjZIQ29nSkQ2WFJKaXBLcW5vc1ozZFk3ZEpScXMra2JRaFY0cG5xdWIzNlQwZ1lEUUR3PT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.1.6/JamSync_0.1.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjdwZkJ6bzdLUjZ0VnFqd3FBRGJrc1ZDQk5aSXFsTkNRZCs1enVTcXVTMUlXNUlpZDEzY05tcGJQRE9Kc2hUeHR5S1hpbXR3S0hFbDZGQ3ZIRkEvb2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1Nzk1MzczCWZpbGU6SmFtU3luY18wLjEuN194NjQtc2V0dXAuZXhlClpHYmszeXF3MFR4ckZkK1JHZTJiYkduK09BdlNSdWJUcE5md1haRzNzZDNpRmpuM3hNa2FiVENFTVhsZWlmRTNXTmdKak1CVEkrVjcyd0t4OUJIckRRPT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.1.7/JamSync_0.1.7_x64-setup.exe"
     }
   }
 }
