@@ -1,11 +1,11 @@
 {
-  "version": "0.2.9",
-  "notes": "v0.2.9: Effects DSP tuning. Compressor adds +6 dB makeup gain by default (compression is now actually audible). Distortion rewritten with asymmetric soft clip (no gain compensation, drive 10, mix 70%) — actually sounds distorted now. Chorus is now 3-voice (rich, no more single-voice whirlpool). Flanger defaults tamed. Delay feedback capped at 0.8 max (no more infinite loops). EQ and reverb unchanged.",
-  "pub_date": "2026-04-10T19:00:00Z",
+  "version": "0.2.10",
+  "notes": "v0.2.10: Distortion rewrite. Drive now controls CLIPPING CHARACTER, not volume — turning drive up no longer just makes things louder, it makes them more distorted. Added 1-pole cabinet simulation (~4.5 kHz lowpass) for warm guitar-amp character instead of harsh digital fizz. Output level is normalized independent of drive. Asymmetric tanh saturation adds even + odd harmonics. Much closer to Hardcore VST / real guitar amp feel.",
+  "pub_date": "2026-04-10T19:30:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjN6UzVNb0t3SWtBYlk0dUs3anYycTg2K0pvRkFxdnl4OVBodTg0SW5VZTYzQUJjVVBIY3hNYnhNa2g0TDc0ajBQa0tkMFFwTjlzb04vTHE3K2hZcmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODUyODIxCWZpbGU6SmFtU3luY18wLjIuOV94NjQtc2V0dXAuZXhlCldwMlNydkdMczJIdjdnSHY1WXJxamVNV2k1bHlGYmc1QW80VjhDK2lNUThaNjU4U1ZWV0N0ZFhOV21iYkNqRUIzbTNLTjBOcGNZQjVoMnlyalNNR0NnPT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.9/JamSync_0.2.9_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjRwU3N1OVlRUjhnOG1vUzBITjNUV2Vma2VKNDkxbUdwd0I3WXdYeUdsVWR5aTc5QWFsWDdFT3c2a3RnRUYvTGlzemRudmhINjRpdUJRVUhmbWMxd2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODUzOTU0CWZpbGU6SmFtU3luY18wLjIuMTBfeDY0LXNldHVwLmV4ZQpjK1g3c1pLb0IwRFNjR21kcW5NSzR6Wmg3Ukc5MnFheUJORUhqMm1HQmZ1dEtWYWFBU051aE9sTUZackh5RUo0RGZlL0ZDZEpmNFN0WWZCaW1GWjBEdz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.10/JamSync_0.2.10_x64-setup.exe"
     }
   }
 }
