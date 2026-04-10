@@ -1,11 +1,11 @@
 {
-  "version": "0.2.12",
-  "notes": "v0.2.12: Distortion v3 — third rewrite. Single-stage asymmetric hard clip (+1.0/-0.7) for richer harmonics, peak envelope follower scales wet level to track dry input level (so timbre changes are perceived as timbre, not 'just louder'), cabinet LPF dropped 5kHz→4kHz to kill more aliasing. Default drive 15, default mix 85%. Plug your guitar in and try drive 15-25 for metal tones.",
-  "pub_date": "2026-04-10T20:30:00Z",
+  "version": "0.2.13",
+  "notes": "v0.2.13: Reverted distortion to v0.2.11 (the better-sounding two-stage tanh + hard clip + 5kHz cabinet — confirmed by user A/B test). NEW: Input channel selection on the Setup screen for multi-input interfaces (Focusrite 18i8, etc) — pick which physical input to capture from. Defaults persist via settings.",
+  "pub_date": "2026-04-10T21:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QitvWVIxcE4veXpIRFFRZlVZZzVUWFkvWEJLamQyUkxyYXVkdklsOE1lQmk4a3orWjZSc25SOTF1WkxaYWpkOExHc0cvMlVUMGNad09JUDlaMmg2blFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODU2MjkxCWZpbGU6SmFtU3luY18wLjIuMTJfeDY0LXNldHVwLmV4ZQpPWUtyQllqTXljQWhSYjNESnhVNHZLTTJOd2lJMk8wNitOL1dvd2hTai9zdzd0UThBVDBzYzRBSDR3c09Bamg4OW54S2pTRW9DdjRROFpwcjlBdEVEZz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.12/JamSync_0.2.12_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QitvUUpkdDE3VURHeDZOaDRmU0pONndkbitEV3Qxa0RCVTIrSlR0M2lPUnlHSjRwNXlPVXhIazVZcHYxbkZnZHlhYnE0b1daa3Zyak1PcHN5QVRFelFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODU4MTk0CWZpbGU6SmFtU3luY18wLjIuMTNfeDY0LXNldHVwLmV4ZQpiVEQzdmd0RlhEVTl2OEJmcldZU0JVcGZkTGNjc3VoWVJPUmdUMy84U1pwelV0L3VGRmV4Z2ZsQXRhbExBRDFmYThZeFhkTzloYVUweDJXdWZ3T1FBUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.13/JamSync_0.2.13_x64-setup.exe"
     }
   }
 }
