@@ -1,11 +1,11 @@
 {
-  "version": "0.2.14",
-  "notes": "v0.2.14: Dual-channel input mode. Plug a mic into one input and a guitar into another, sing AND play simultaneously. Each channel gets its own effects chain (mic effects + instrument effects) and its own volume slider. Both mixed locally before sending — peer hears one mono stream, zero added latency. Configure via the new 'Instrument Channel (optional)' dropdown in the Setup screen. Defaults to None for backwards compatibility.",
-  "pub_date": "2026-04-10T21:30:00Z",
+  "version": "0.2.15",
+  "notes": "v0.2.15: Volume slider persistence + UI polish. Output/Mic/Instrument sliders no longer reset to 1.0x when navigating to Effects or Settings and back — SessionScreen now pulls the real engine values on mount. Also persists metronome enabled/BPM across navigation. Mic and Instrument effects buttons now have matching gray styling. Replaced the unclear instrument icon with a clean eighth-note SVG.",
+  "pub_date": "2026-04-10T22:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qit3TmxCWStQWGVYeSt5WFUrUzFEYUlXbWU4eTRkQ2FwczVJOUxQa2JjbFVNaWY0NFpiYUJzcEpMU0lTaldQQXdzMlQ0OVR4RVFBbXNxR3dmbG9iQ3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODYwODY3CWZpbGU6SmFtU3luY18wLjIuMTRfeDY0LXNldHVwLmV4ZQpSNUYyTFh0SU5ScTE2Z1NzamZNa1BLQmY4UzVGTEF1RjNNaGxrZTFrME1VUnFQUDJIcHhUNFlNUGJDdG9Hc0VHaDBlMkIzSGQyeVRBSDl0K3ZvaWxEQT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.14/JamSync_0.2.14_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjFiZWNrTldEekxLc3hrZnRLWlZOQW4yOHFqNFlqbSt2dWliZC8xNkJZYWE3ZjNndTlVZXVFQmYrbVhEdmg1L0ZpSUNjUS9oSTNKM3Vqa2Z3MUlTeEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODYyMDg3CWZpbGU6SmFtU3luY18wLjIuMTVfeDY0LXNldHVwLmV4ZQpJREV1cHREV2lEWG5MZGtjTFgxSGNnT1o4a05pSVpUdTJLaUlXNWthNkpTanoxK2dpOW53NFFPSmUvUC9LVmtXckRhcTU5S0JzdXJleWNaUTNndDNDUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.15/JamSync_0.2.15_x64-setup.exe"
     }
   }
 }
