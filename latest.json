@@ -1,11 +1,11 @@
 {
-  "version": "0.2.2",
-  "notes": "v0.2.2: Lock-free atomic for effects bypass (no contention with no effects on)",
-  "pub_date": "2026-04-10T15:02:39Z",
+  "version": "0.2.3",
+  "notes": "v0.2.3: Reverted effects code — back to v0.1.x audio quality. Effects work paused pending zero-latency redesign.",
+  "pub_date": "2026-04-10T15:30:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnhvU0d4aFpvM2Znc0orUmF3cXZDN3M3alF6Snlvc1QvRG1naVVRSWlYMDFOQ2lqT3FvNk5lazUrRXB2aWV4cWp5UnRPK3dPSjF3czZVQSthY2tVN3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODMzMzU5CWZpbGU6SmFtU3luY18wLjIuMl94NjQtc2V0dXAuZXhlCmhCaUZPM1lzUEN6QmxnNCtKcUl5NzdHdUZmd3ZHT3VPdyt0aVIyZk9VcHB2eElLb2JscmVsNVZ3bHRkVks3dkM2OEU4RG9GUmc5bUZjeUpRc1FTeURBPT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.2/JamSync_0.2.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjhwalJVcGhnVGRWcHpDd0tPY0VCQ3BNTzFUYm5HZVhBMDM5dWgvdldTUVZucG5KSk1pR09SMnNFNnRBVUoyazFRanNHVGtBWUlQNW81dU52Z3NnbVF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODM2MDUyCWZpbGU6SmFtU3luY18wLjIuM194NjQtc2V0dXAuZXhlCnhCNHNwQzVmZWc4aEVyVVFGb1JGT3UrVVZLek45S0pCTDEyRHBZNm9uKzZJcHh3S1Rmc040cU9HaWg3NUYzZEVpMm1wZWVzblBKbXFrUjN4Z0huZUNRPT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.3/JamSync_0.2.3_x64-setup.exe"
     }
   }
 }
