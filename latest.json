@@ -1,11 +1,11 @@
 {
-  "version": "0.2.3",
-  "notes": "v0.2.3: Reverted effects code — back to v0.1.x audio quality. Effects work paused pending zero-latency redesign.",
-  "pub_date": "2026-04-10T15:30:00Z",
+  "version": "0.2.4",
+  "notes": "v0.2.4: Latency Mode setting (Safe/Standard/Ultra-low). Default buffer bumped from 64 → 128 samples for robustness against system DPC spikes from GPU/Wi-Fi drivers. Ultra-low (64 samples) still available as an opt-in setting.",
+  "pub_date": "2026-04-10T16:30:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjhwalJVcGhnVGRWcHpDd0tPY0VCQ3BNTzFUYm5HZVhBMDM5dWgvdldTUVZucG5KSk1pR09SMnNFNnRBVUoyazFRanNHVGtBWUlQNW81dU52Z3NnbVF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODM2MDUyCWZpbGU6SmFtU3luY18wLjIuM194NjQtc2V0dXAuZXhlCnhCNHNwQzVmZWc4aEVyVVFGb1JGT3UrVVZLek45S0pCTDEyRHBZNm9uKzZJcHh3S1Rmc040cU9HaWg3NUYzZEVpMm1wZWVzblBKbXFrUjN4Z0huZUNRPT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.3/JamSync_0.2.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QitVM1JjaU8rM24zWUZ3VEhkNGZ2eU1NR2RTamZXS2diM0E3WnpQQTFyYXdycko0bjFwUnNDWHBsbmZpc3JsdzNqYURIS3dqeVZ4anJvSDRlNDFLV2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODQzMTU5CWZpbGU6SmFtU3luY18wLjIuNF94NjQtc2V0dXAuZXhlCmdkRGlEWXluTlNnV21OUW9xaFJVMGxTVTJyTHlYVGlPMXFuTVVrczNKS2s1RkhlVlhKL1FRTjBvUFp5OEZoV2QzNER0OEFPMkRkKzdQZWxoaEUyUENnPT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.4/JamSync_0.2.4_x64-setup.exe"
     }
   }
 }
