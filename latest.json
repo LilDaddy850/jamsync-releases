@@ -1,11 +1,11 @@
 {
-  "version": "0.1.9",
-  "notes": "v0.1.9: Fix metronome static — wall-clock beat detection + smooth click playback (no more callback jitter)",
-  "pub_date": "2026-04-10T14:01:27Z",
+  "version": "0.2.0",
+  "notes": "v0.2.0 — PHASE 2 START: Built-in effects rack (Compressor, EQ, Distortion, Chorus, Flanger, Delay, Reverb)",
+  "pub_date": "2026-04-10T14:40:13Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjdCanp2cnl6YUhiSDlhMCtFbERSK2VsWVd2bCsyUUZBMjUyRXhDbzA3WnR1YVBZQ1BJNjNodENONlJEcWZwN04vbkVKZzVCcGJ1dFhNMDhIa3Vad1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODI5Njg3CWZpbGU6SmFtU3luY18wLjEuOV94NjQtc2V0dXAuZXhlClpYdGFBQUR4VG9kM3RSeFZSeGRWT3RTMUEvcFh5M2JyU0ZZSmkvNzhOL3o1Tmw3YW9OdUJnYVl6RnUxSzFzd1A1Z1BPVkp5WWpXWDJDRmhGeWt0cEJRPT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.1.9/JamSync_0.1.9_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjBNQXNhTDBsazNzd3lMb3h5VnZhR1R1ZEhCRjZJUUFvRFJwSmlQbDM2K0dWcjdDcnBCNk4wbnQ4d1pjVlduQ1FLYWdFSUxYY3BkMUNrV1Z3RlhHSndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODMyMDEzCWZpbGU6SmFtU3luY18wLjIuMF94NjQtc2V0dXAuZXhlCkhXNjlwQTJEY3ovVEliSmhkaWxiRHVmVDJ4R2ZyNU1CYlRZaWZXbGFpYnVTVjI3OEdRM1VYTmo1TGxmQUNFa2dBTlpraGZFOUhmQzMzUkxOeGFDK0FRPT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.0/JamSync_0.2.0_x64-setup.exe"
     }
   }
 }
