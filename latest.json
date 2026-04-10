@@ -1,11 +1,11 @@
 {
-  "version": "0.1.3",
-  "notes": "v0.1.3: WASAPI exclusive format negotiation (tries I16/I24/I32/F32)",
-  "pub_date": "2026-04-10T02:59:12Z",
+  "version": "0.1.4",
+  "notes": "v0.1.4: 5 metronome sounds (Click, Soft, Wood Block, Cowbell, Hi-Hat)",
+  "pub_date": "2026-04-10T03:48:35Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjhZTXVIcWhUb21Ic1JZajI1akMxbk5Id0ZxSENScWFqbmVKLy9CSFprb2RLNmpob1djSWxFQXRVRzh0K3pCeHJPa2RqWG9wV1hld3hsa3VDMXFBSEFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1Nzg5OTUyCWZpbGU6SmFtU3luY18wLjEuM194NjQtc2V0dXAuZXhlClRpTlF1WFQyUHdIMUxPbWhXb1hTTHZrSjI2WFZoYnBKUzNLUmsvVnAwMWFFdE4rWkU4aXRRNTNGWlozSWYzTXNqYXdSUElHamdKei9NVW5pVTZSbUNRPT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.1.3/JamSync_0.1.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnhIR3BpQnM3Rloxc0NSdWEvVHk4RnQrRzEzSlUxb205Q3dmRzh6MnBhbFF2VmV2NmovTGg4UEpVQ3o0dndGdFBMdmQ1amFBRkxOWXZOU3Y4T2hhQWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1NzkyOTE0CWZpbGU6SmFtU3luY18wLjEuNF94NjQtc2V0dXAuZXhlCjkwZWxFOWpSUnhsNkhiK0FQS0RWL201ZGVjYnhHU252MjAyM2lWODR1WjBmRW5zQTRkWmp6WU9lTnRUYnRjY0pVQzBSWDc2cWpQZGc0VUUxOGZQdERRPT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.1.4/JamSync_0.1.4_x64-setup.exe"
     }
   }
 }
