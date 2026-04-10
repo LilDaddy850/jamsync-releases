@@ -1,11 +1,11 @@
 {
-  "version": "0.2.8",
-  "notes": "v0.2.8: Effects rack is back. All 7 effects (Compressor, EQ, Distortion, Chorus, Flanger, Delay, Reverb) with lock-free bypass — when all effects are off, the audio path is bit-perfect identical to v0.1.x (zero added latency). Compressor, EQ, and Distortion add zero latency even when on. UI shows per-effect latency cost. Chorus base delay reduced 15ms → 8ms.",
-  "pub_date": "2026-04-10T18:30:00Z",
+  "version": "0.2.9",
+  "notes": "v0.2.9: Effects DSP tuning. Compressor adds +6 dB makeup gain by default (compression is now actually audible). Distortion rewritten with asymmetric soft clip (no gain compensation, drive 10, mix 70%) — actually sounds distorted now. Chorus is now 3-voice (rich, no more single-voice whirlpool). Flanger defaults tamed. Delay feedback capped at 0.8 max (no more infinite loops). EQ and reverb unchanged.",
+  "pub_date": "2026-04-10T19:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnpFZkU2aHJtUjk0L1hOZnNrZW4yQjI3SG1pZUs3Qkt3YnR6UXBMVWpxd0NEUlh5SlVIVStyOTN0Q3M2RGlFVFBOTWorK2VRbVFDNERTaEFIU0NGWHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODUxNTU2CWZpbGU6SmFtU3luY18wLjIuOF94NjQtc2V0dXAuZXhlCi9PQi9TY2tHY2k5UFpiYm9aOG53NVZtSjlVOFArSDQrUE1pMmxHVDBkcENCNVBpOWxaejU0bWtMUHJ4c21LeENOcGNEWTFLMXV2ZGdIU1R4cUlBUEJ3PT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.8/JamSync_0.2.8_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjN6UzVNb0t3SWtBYlk0dUs3anYycTg2K0pvRkFxdnl4OVBodTg0SW5VZTYzQUJjVVBIY3hNYnhNa2g0TDc0ajBQa0tkMFFwTjlzb04vTHE3K2hZcmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODUyODIxCWZpbGU6SmFtU3luY18wLjIuOV94NjQtc2V0dXAuZXhlCldwMlNydkdMczJIdjdnSHY1WXJxamVNV2k1bHlGYmc1QW80VjhDK2lNUThaNjU4U1ZWV0N0ZFhOV21iYkNqRUIzbTNLTjBOcGNZQjVoMnlyalNNR0NnPT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.9/JamSync_0.2.9_x64-setup.exe"
     }
   }
 }
