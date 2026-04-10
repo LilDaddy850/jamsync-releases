@@ -1,11 +1,11 @@
 {
-  "version": "0.2.5",
-  "notes": "v0.2.5: Fix WASAPI exclusive mode format mismatch bug. Cpal-fork was silently falling back to a different sample format when the requested one was rejected, causing the callback to misinterpret bytes (clean on silence, garbage on speech). Now exclusive only attempts the requested format; any rejection falls straight through to shared mode.",
-  "pub_date": "2026-04-10T17:00:00Z",
+  "version": "0.2.6",
+  "notes": "v0.2.6: Sample rate pre-flight warning. If your audio interface isn't at 48 kHz when you start a session, JamSync now shows a clear dialog explaining the problem and how to fix it. Addresses the 'FL Studio silently switched my device to 44.1 kHz' case and similar.",
+  "pub_date": "2026-04-10T17:30:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjBkOW85bmUzT0E5SW50eUxNWlloTXVzZzNzU0NxWE5VYlpvc1RmYVlIeHQwZ3RPS0VwSjV5U2xKd1ZZeHBmK0t1SWt4eXk0UlVsWnFBay9HOFpXTVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODQ2MTQxCWZpbGU6SmFtU3luY18wLjIuNV94NjQtc2V0dXAuZXhlCmZVelZJbmxiWjgybGpkSGsvTkdZQjdETTlmeG5qVEFvbkd0eU9sWVZLSDdEVHM5dThWQVZUZjRtNkJpZS9XQ3hyWS9nbTh2UnpHbUFMdXMxblhSY0RnPT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.5/JamSync_0.2.5_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjBsSWp4d0ptckRCNEtHc0RWeWFWQVdXdVRaZDh2VGpVTU03TTJwTC82M1RNME56elR3d1YrOElRZDhrQnEzdHlMWmJDdDA5M2M1VVBIUTdEU0J5QXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODQ4MjM5CWZpbGU6SmFtU3luY18wLjIuNl94NjQtc2V0dXAuZXhlCnE4Wm5iTDVDeG5VODh2UW45RTBHbXZGNzEyNCtnRzBEK3FURzRrMzlEUFJ4WUZWZmQwWW5BS212VXkwalpDcjRyc2R1a3RpbVlrS0dtNi8wNEFSTUNRPT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.6/JamSync_0.2.6_x64-setup.exe"
     }
   }
 }
