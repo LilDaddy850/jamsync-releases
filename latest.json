@@ -1,11 +1,11 @@
 {
-  "version": "0.2.10",
-  "notes": "v0.2.10: Distortion rewrite. Drive now controls CLIPPING CHARACTER, not volume — turning drive up no longer just makes things louder, it makes them more distorted. Added 1-pole cabinet simulation (~4.5 kHz lowpass) for warm guitar-amp character instead of harsh digital fizz. Output level is normalized independent of drive. Asymmetric tanh saturation adds even + odd harmonics. Much closer to Hardcore VST / real guitar amp feel.",
-  "pub_date": "2026-04-10T19:30:00Z",
+  "version": "0.2.11",
+  "notes": "v0.2.11: Heavy metal distortion. Two-stage architecture: pre-HPF (120 Hz) → tanh soft clip (Stage 1) → inter-stage HPF → HARD CLIP (Stage 2) → cabinet LPF (5 kHz). Modeled on real metal pedals (Boss HM-2, Metal Zone, Mesa Rectifier). Hard clipping in Stage 2 produces square-wave-like harmonics for the 'razor' metal character that single-stage tanh can't reach. Drive 1-3 = subtle overdrive, 5-10 = heavy rock crunch, 15-30 = full metal sustain. Loudness still drive-independent.",
+  "pub_date": "2026-04-10T20:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjRwU3N1OVlRUjhnOG1vUzBITjNUV2Vma2VKNDkxbUdwd0I3WXdYeUdsVWR5aTc5QWFsWDdFT3c2a3RnRUYvTGlzemRudmhINjRpdUJRVUhmbWMxd2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODUzOTU0CWZpbGU6SmFtU3luY18wLjIuMTBfeDY0LXNldHVwLmV4ZQpjK1g3c1pLb0IwRFNjR21kcW5NSzR6Wmg3Ukc5MnFheUJORUhqMm1HQmZ1dEtWYWFBU051aE9sTUZackh5RUo0RGZlL0ZDZEpmNFN0WWZCaW1GWjBEdz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.10/JamSync_0.2.10_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qi9ZNUF3dUF2STZXUzZzNjNiZGhaZ24rakhvS21ia0prWDFpaTRMdUs0L0FkL0NLNm5yZVdPakpwcHF5Wko4Z200Sndxd3JVNHRLelhlZkc2dVIyOGcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODU0ODIxCWZpbGU6SmFtU3luY18wLjIuMTFfeDY0LXNldHVwLmV4ZQo2dmxIaUlZRjZmR3oreGRGU1FxWlF0ZlNNcXRsOTNJVGhhTW04ZTNsMHNaVFBrTWluVnNXa1pndUxkbUZ6Myt1VlJ1VmQ5V1RBNUhyM2Rna2VCTVFCZz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.11/JamSync_0.2.11_x64-setup.exe"
     }
   }
 }
