@@ -1,11 +1,11 @@
 {
-  "version": "0.1.2",
-  "notes": "v0.1.2: Fix version display, add Tauri capabilities",
-  "pub_date": "2026-04-10T02:27:13Z",
+  "version": "0.1.3",
+  "notes": "v0.1.3: WASAPI exclusive format negotiation (tries I16/I24/I32/F32)",
+  "pub_date": "2026-04-10T02:59:12Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjlaeWhoVkZKQmhrajBMUEZjbXZobDJUc0tqS0V1YW96ZW9OVkRZaWR0TWFrdjQ0UVVUNTFuUktoc0tidXJLOU9OdGFXUkNiSCtuelZYY2gvelorMWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1Nzg3OTYyCWZpbGU6SmFtU3luY18wLjEuMl94NjQtc2V0dXAuZXhlCjlRTThjOU1lMDc5czFDbHJxeU9vbXFudlJjT1FpQmhTRXZtMEpXN2JibVFNaXYzWERGYXltV3FYU3FMOXR0a3NqdFc0aktkMkkrTnljKzlkVTNQcUJ3PT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.1.2/JamSync_0.1.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjhZTXVIcWhUb21Ic1JZajI1akMxbk5Id0ZxSENScWFqbmVKLy9CSFprb2RLNmpob1djSWxFQXRVRzh0K3pCeHJPa2RqWG9wV1hld3hsa3VDMXFBSEFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1Nzg5OTUyCWZpbGU6SmFtU3luY18wLjEuM194NjQtc2V0dXAuZXhlClRpTlF1WFQyUHdIMUxPbWhXb1hTTHZrSjI2WFZoYnBKUzNLUmsvVnAwMWFFdE4rWkU4aXRRNTNGWlozSWYzTXNqYXdSUElHamdKei9NVW5pVTZSbUNRPT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.1.3/JamSync_0.1.3_x64-setup.exe"
     }
   }
 }
