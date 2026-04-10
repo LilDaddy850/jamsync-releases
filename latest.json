@@ -1,11 +1,11 @@
 {
-  "version": "0.2.1",
-  "notes": "v0.2.1: Bypass effects pipeline entirely when no effects enabled (fixes static)",
-  "pub_date": "2026-04-10T14:55:37Z",
+  "version": "0.2.2",
+  "notes": "v0.2.2: Lock-free atomic for effects bypass (no contention with no effects on)",
+  "pub_date": "2026-04-10T15:02:39Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QndxcnI2ek5kNC95emZiU1B2bTRkRVVQOVQrRVR1b0JtTkVrRi9jK3h5aTI0b04ya2llN21pRGFOQXFITmVkMldjbWhOaWRvNmdIaHprTnJKeDFDWWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODMyOTM3CWZpbGU6SmFtU3luY18wLjIuMV94NjQtc2V0dXAuZXhlCnBmb3J3NEluSS9RcTV1L3Q1YTJkS2VNcmhlU2hzZU9qQTJMT0JVS2tKWXFwMXhURzJXOXgvTVZwWkpzYXRyZ080MjJvOGxGQSs3cFZHbnluNXljcERRPT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.1/JamSync_0.2.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnhvU0d4aFpvM2Znc0orUmF3cXZDN3M3alF6Snlvc1QvRG1naVVRSWlYMDFOQ2lqT3FvNk5lazUrRXB2aWV4cWp5UnRPK3dPSjF3czZVQSthY2tVN3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODMzMzU5CWZpbGU6SmFtU3luY18wLjIuMl94NjQtc2V0dXAuZXhlCmhCaUZPM1lzUEN6QmxnNCtKcUl5NzdHdUZmd3ZHT3VPdyt0aVIyZk9VcHB2eElLb2JscmVsNVZ3bHRkVks3dkM2OEU4RG9GUmc5bUZjeUpRc1FTeURBPT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.2/JamSync_0.2.2_x64-setup.exe"
     }
   }
 }
