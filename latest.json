@@ -1,0 +1,11 @@
+{
+  "version": "0.1.1",
+  "notes": "v0.1.1: WASAPI exclusive mode with fallback, driver info logging, cross-platform readiness, auto-updater",
+  "pub_date": "2026-04-10T00:41:31Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QitBS00vQlVUVXptZVBjUHJCbFZkZWhxL3Fnby9XSDNyNi8xY0FvSTFXTDBCN0draVA5WHAvbDRNWXA0cmdSWHVJNUJ1TVZFaEFMQU1PSTRYbktTa0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1NzgxNjc4CWZpbGU6SmFtU3luY18wLjEuMV94NjQtc2V0dXAuZXhlCnhQZWJtUDFrL1F5NjU0bVFqNjVQTHY5cDgwcEdjYzRWdlhKQm9WaWk0ak9kOGhVdGNZUzVoNzA1TFluRGlvbS9wMHNCK2JYbWZGeW1LWDBhQ01UTkNBPT0K",
+      "url": "https://github.com/LilDaddy850/jamsync/releases/download/v0.1.1/JamSync_0.1.1_x64-setup.exe"
+    }
+  }
+}
