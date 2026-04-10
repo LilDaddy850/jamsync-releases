@@ -1,11 +1,11 @@
 {
-  "version": "0.2.0",
-  "notes": "v0.2.0 — PHASE 2 START: Built-in effects rack (Compressor, EQ, Distortion, Chorus, Flanger, Delay, Reverb)",
-  "pub_date": "2026-04-10T14:40:13Z",
+  "version": "0.2.1",
+  "notes": "v0.2.1: Bypass effects pipeline entirely when no effects enabled (fixes static)",
+  "pub_date": "2026-04-10T14:55:37Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjBNQXNhTDBsazNzd3lMb3h5VnZhR1R1ZEhCRjZJUUFvRFJwSmlQbDM2K0dWcjdDcnBCNk4wbnQ4d1pjVlduQ1FLYWdFSUxYY3BkMUNrV1Z3RlhHSndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODMyMDEzCWZpbGU6SmFtU3luY18wLjIuMF94NjQtc2V0dXAuZXhlCkhXNjlwQTJEY3ovVEliSmhkaWxiRHVmVDJ4R2ZyNU1CYlRZaWZXbGFpYnVTVjI3OEdRM1VYTmo1TGxmQUNFa2dBTlpraGZFOUhmQzMzUkxOeGFDK0FRPT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.0/JamSync_0.2.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QndxcnI2ek5kNC95emZiU1B2bTRkRVVQOVQrRVR1b0JtTkVrRi9jK3h5aTI0b04ya2llN21pRGFOQXFITmVkMldjbWhOaWRvNmdIaHprTnJKeDFDWWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODMyOTM3CWZpbGU6SmFtU3luY18wLjIuMV94NjQtc2V0dXAuZXhlCnBmb3J3NEluSS9RcTV1L3Q1YTJkS2VNcmhlU2hzZU9qQTJMT0JVS2tKWXFwMXhURzJXOXgvTVZwWkpzYXRyZ080MjJvOGxGQSs3cFZHbnluNXljcERRPT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.1/JamSync_0.2.1_x64-setup.exe"
     }
   }
 }
