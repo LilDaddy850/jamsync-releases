@@ -1,11 +1,11 @@
 {
-  "version": "0.2.4",
-  "notes": "v0.2.4: Latency Mode setting (Safe/Standard/Ultra-low). Default buffer bumped from 64 → 128 samples for robustness against system DPC spikes from GPU/Wi-Fi drivers. Ultra-low (64 samples) still available as an opt-in setting.",
-  "pub_date": "2026-04-10T16:30:00Z",
+  "version": "0.2.5",
+  "notes": "v0.2.5: Fix WASAPI exclusive mode format mismatch bug. Cpal-fork was silently falling back to a different sample format when the requested one was rejected, causing the callback to misinterpret bytes (clean on silence, garbage on speech). Now exclusive only attempts the requested format; any rejection falls straight through to shared mode.",
+  "pub_date": "2026-04-10T17:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QitVM1JjaU8rM24zWUZ3VEhkNGZ2eU1NR2RTamZXS2diM0E3WnpQQTFyYXdycko0bjFwUnNDWHBsbmZpc3JsdzNqYURIS3dqeVZ4anJvSDRlNDFLV2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODQzMTU5CWZpbGU6SmFtU3luY18wLjIuNF94NjQtc2V0dXAuZXhlCmdkRGlEWXluTlNnV21OUW9xaFJVMGxTVTJyTHlYVGlPMXFuTVVrczNKS2s1RkhlVlhKL1FRTjBvUFp5OEZoV2QzNER0OEFPMkRkKzdQZWxoaEUyUENnPT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.4/JamSync_0.2.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjBkOW85bmUzT0E5SW50eUxNWlloTXVzZzNzU0NxWE5VYlpvc1RmYVlIeHQwZ3RPS0VwSjV5U2xKd1ZZeHBmK0t1SWt4eXk0UlVsWnFBay9HOFpXTVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODQ2MTQxCWZpbGU6SmFtU3luY18wLjIuNV94NjQtc2V0dXAuZXhlCmZVelZJbmxiWjgybGpkSGsvTkdZQjdETTlmeG5qVEFvbkd0eU9sWVZLSDdEVHM5dThWQVZUZjRtNkJpZS9XQ3hyWS9nbTh2UnpHbUFMdXMxblhSY0RnPT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.5/JamSync_0.2.5_x64-setup.exe"
     }
   }
 }
