@@ -1,11 +1,11 @@
 {
-  "version": "0.2.7",
-  "notes": "v0.2.7: Fix resampler artifacts at non-48 kHz rates. Output callbacks now use a persistent staging buffer that carries leftover samples across calls, so variable-per-call resampler output no longer causes audible gaps. When running at 44.1 kHz (or any non-48k rate), 'Continue anyway' in the sample rate warning now produces clean audio instead of crackling.",
-  "pub_date": "2026-04-10T18:00:00Z",
+  "version": "0.2.8",
+  "notes": "v0.2.8: Effects rack is back. All 7 effects (Compressor, EQ, Distortion, Chorus, Flanger, Delay, Reverb) with lock-free bypass — when all effects are off, the audio path is bit-perfect identical to v0.1.x (zero added latency). Compressor, EQ, and Distortion add zero latency even when on. UI shows per-effect latency cost. Chorus base delay reduced 15ms → 8ms.",
+  "pub_date": "2026-04-10T18:30:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjRzNzBEcGRJaFE1SGMzU0dYZHZlelhEUFRseDZVazlvbnhhUW5VSWFFcEpvRWZhL1BER2FMa3JYanFPeWlhVVBJRmM3aUtuSGRCbFNJQ3UrNGZ3QVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODQ5ODcwCWZpbGU6SmFtU3luY18wLjIuN194NjQtc2V0dXAuZXhlCmZ2c1VyUStoNWI2UGtCODRWcUlqTXg2aG1lYmNXTEV0bW9xd25kZVBCVDVZckVENmRnK1pmNjRGZjJJaUtVMGhTc2J1U21rYzlVbW9BWmUxZGhBY0JBPT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.7/JamSync_0.2.7_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnpFZkU2aHJtUjk0L1hOZnNrZW4yQjI3SG1pZUs3Qkt3YnR6UXBMVWpxd0NEUlh5SlVIVStyOTN0Q3M2RGlFVFBOTWorK2VRbVFDNERTaEFIU0NGWHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODUxNTU2CWZpbGU6SmFtU3luY18wLjIuOF94NjQtc2V0dXAuZXhlCi9PQi9TY2tHY2k5UFpiYm9aOG53NVZtSjlVOFArSDQrUE1pMmxHVDBkcENCNVBpOWxaejU0bWtMUHJ4c21LeENOcGNEWTFLMXV2ZGdIU1R4cUlBUEJ3PT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.8/JamSync_0.2.8_x64-setup.exe"
     }
   }
 }
