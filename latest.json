@@ -1,11 +1,11 @@
 {
-  "version": "0.1.1",
-  "notes": "v0.1.1: Dynamic version, WASAPI exclusive fallback, driver logging",
-  "pub_date": "2026-04-10T01:57:07Z",
+  "version": "0.1.2",
+  "notes": "v0.1.2: Fix version display, add Tauri capabilities",
+  "pub_date": "2026-04-10T02:27:13Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QityOHBUQm9xbmVRYlI5VkFkNnArY1BEK2FSRy9zY2NQR05ZV2JrTDFRcXd3MmNWN2Q4Zm81bWhKZHk0ZlNkMUZzUC9Xb0E5UEhqYUdaeFMrTFlFTGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1Nzg2MTg0CWZpbGU6SmFtU3luY18wLjEuMV94NjQtc2V0dXAuZXhlCi9xbGtxcDd0NWJYb3lwMzlWMlpjd1AwWlk3WkZDTHRFNlFVajlLOFE5ZVNUTmVmTUxXUEozcjQ3L21FcDVyY29mQkNTd1FtS2prN0dPbmQrZ0JYcUNBPT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.1.1/JamSync_0.1.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjlaeWhoVkZKQmhrajBMUEZjbXZobDJUc0tqS0V1YW96ZW9OVkRZaWR0TWFrdjQ0UVVUNTFuUktoc0tidXJLOU9OdGFXUkNiSCtuelZYY2gvelorMWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1Nzg3OTYyCWZpbGU6SmFtU3luY18wLjEuMl94NjQtc2V0dXAuZXhlCjlRTThjOU1lMDc5czFDbHJxeU9vbXFudlJjT1FpQmhTRXZtMEpXN2JibVFNaXYzWERGYXltV3FYU3FMOXR0a3NqdFc0aktkMkkrTnljKzlkVTNQcUJ3PT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.1.2/JamSync_0.1.2_x64-setup.exe"
     }
   }
 }
