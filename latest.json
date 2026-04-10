@@ -1,10 +1,10 @@
 {
   "version": "0.1.1",
-  "notes": "v0.1.1: Dynamic version display, WASAPI exclusive fallback, driver logging",
-  "pub_date": "2026-04-10T01:44:45Z",
+  "notes": "v0.1.1: Dynamic version, WASAPI exclusive fallback, driver logging",
+  "pub_date": "2026-04-10T01:57:07Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjNlNlFaVDI1WjRaSUdDckNSVFNqNU1jOGtQVm10L2dKVkFtUlJjWWErNGxTb0NXNU84dkVFOWNJalR6eThiSkwzRkNlck1IZG5qbmRuM25jeUsySmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1Nzg0NTA2CWZpbGU6SmFtU3luY18wLjEuMV94NjQtc2V0dXAuZXhlCmY1c3NrR0U3UkFVQjR6Nkk2SzRZREt3dm5oaWpHbUllamR3TGpLQjF0TVFMWWF4K0QwL2IxNU03ZmJ3aWZNTGVac1JxSHR5OVBsWlJWWldPbU5PVkF3PT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QityOHBUQm9xbmVRYlI5VkFkNnArY1BEK2FSRy9zY2NQR05ZV2JrTDFRcXd3MmNWN2Q4Zm81bWhKZHk0ZlNkMUZzUC9Xb0E5UEhqYUdaeFMrTFlFTGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1Nzg2MTg0CWZpbGU6SmFtU3luY18wLjEuMV94NjQtc2V0dXAuZXhlCi9xbGtxcDd0NWJYb3lwMzlWMlpjd1AwWlk3WkZDTHRFNlFVajlLOFE5ZVNUTmVmTUxXUEozcjQ3L21FcDVyY29mQkNTd1FtS2prN0dPbmQrZ0JYcUNBPT0K",
       "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.1.1/JamSync_0.1.1_x64-setup.exe"
     }
   }
