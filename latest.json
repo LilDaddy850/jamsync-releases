@@ -1,11 +1,11 @@
 {
-  "version": "0.2.15",
-  "notes": "v0.2.15: Volume slider persistence + UI polish. Output/Mic/Instrument sliders no longer reset to 1.0x when navigating to Effects or Settings and back — SessionScreen now pulls the real engine values on mount. Also persists metronome enabled/BPM across navigation. Mic and Instrument effects buttons now have matching gray styling. Replaced the unclear instrument icon with a clean eighth-note SVG.",
-  "pub_date": "2026-04-10T22:00:00Z",
+  "version": "0.2.16",
+  "notes": "v0.2.16: Noise Gate effect. Silences background noise/hiss below a threshold. Sits first in the effects chain so noise is gated before any gain stage amplifies it. Four parameters: Threshold, Attack, Release, Hold. Zero latency. Works on both mic and instrument chains.",
+  "pub_date": "2026-04-10T22:30:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjFiZWNrTldEekxLc3hrZnRLWlZOQW4yOHFqNFlqbSt2dWliZC8xNkJZYWE3ZjNndTlVZXVFQmYrbVhEdmg1L0ZpSUNjUS9oSTNKM3Vqa2Z3MUlTeEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODYyMDg3CWZpbGU6SmFtU3luY18wLjIuMTVfeDY0LXNldHVwLmV4ZQpJREV1cHREV2lEWG5MZGtjTFgxSGNnT1o4a05pSVpUdTJLaUlXNWthNkpTanoxK2dpOW53NFFPSmUvUC9LVmtXckRhcTU5S0JzdXJleWNaUTNndDNDUT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.15/JamSync_0.2.15_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjVHSGxmd3J2UjltbWVoNklxRG9SM0t4ZHVOU2dvNTY0QlkvblI0UUpIUXBjTmtYODhIUjJrbDBpUWpQSVVwbWNJRG84aVNkQnhORHIycFcySCt5VXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODYyNjY2CWZpbGU6SmFtU3luY18wLjIuMTZfeDY0LXNldHVwLmV4ZQpWVS9JcUIwUUdhMEthRTdISTExZnlsQVk4dGF4eGpvWDlOeXdaNGZZcTFRdjlxVm5KQ0VMQ0ZQOHJjQldEeERsTmkvcTNWck9Kc3hjQjlvcUZYWlhEZz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.16/JamSync_0.2.16_x64-setup.exe"
     }
   }
 }
