@@ -1,11 +1,11 @@
 {
-  "version": "0.3.5",
-  "notes": "v0.3.5: QoL fixes. (1) Window now opens at 680x900 centered instead of a tiny 800x600 — you can see the whole session screen without scrolling. Min size clamped to 520x600, still fully resizable. (2) Removed the cryptic avc1.42E01F codec label from next to the Video toggle — it was debug leftover from when we were troubleshooting H.264 fallback, and now that video works cleanly it's just noise. Codec still logged to devtools console if you need to check it.",
-  "pub_date": "2026-04-11T20:00:00Z",
+  "version": "0.3.6",
+  "notes": "v0.3.6: Video clip recording on the Record button. When Video is on, Record now captures a composited peer+self WebM with local mic audio and saves it to your recording folder. Self-view is a mirrored PIP in whichever corner the jamsync watermark isn't currently in — the watermark rotates between all four corners every 5 seconds, TikTok-style, so it can't be cropped off. When Video is off, Record behaves exactly like before (Rust WAV). Known limits this release: peer audio not yet in video clips (v0.3.7), rolling 30/60s buttons still audio-only (v0.3.7), animated end-card branding with jamsync_tag sound is v0.3.8.",
+  "pub_date": "2026-04-11T20:30:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qng0NFVsZ2tmSldpRXdqTTJxRms5MkNPdUpTWFNUV0FEdkk3c3ZVSDB5Kyt6WjJBQS8zaVFOamRGZGJWYXYzZ1pEeHRvS0RyU1d5dDRudVpHN1F3OFEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTQwODEzCWZpbGU6SmFtU3luY18wLjMuNV94NjQtc2V0dXAuZXhlCnEwTDZOMXZOOFcxWWhSK283TkYwcU8rNFBrSlhHNkpMYUZONCtHM25oRHRXYnQzNXU5NW9vVnRKM1NCajJmWFl1cjduTWx1VVNsNTJrcFlseHB2M0JnPT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.5/JamSync_0.3.5_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qnc3M2JmTXc1eDNURlcyeDZmRGl6RGt3dEdRNlZQOEljc2lGOG1ZdlRyeGVuNXNzellRQjdsNVJ5cUkycXVuaGMxK2pKajhONG1PdnJyajBLRDUzd0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTQzNjg3CWZpbGU6SmFtU3luY18wLjMuNl94NjQtc2V0dXAuZXhlCkV3YzAyRStEMTdkTTRKTHZESytJRm9OSmhXMmZKUE83S1owenhjOS9URytUZHEwLzYvdzFPTThUQXR1QnVSblRlZmxDK3FzQ3g2ZlVBaHd1NXliSEFRPT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.6/JamSync_0.3.6_x64-setup.exe"
     }
   }
 }
