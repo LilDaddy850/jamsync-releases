@@ -1,11 +1,11 @@
 {
-  "version": "0.2.17",
-  "notes": "v0.2.17: Clip Branding. Exported clips now carry a 'Made with JamSync' audio tag (1.12s ElevenLabs voice tag, Juniper voice) mixed into the start and end. Clips ≥5s get bookended, 2-5s get end-only, under 2s skip the tag. Tag is mixed at ~40% volume on top of the underlying audio — trimming the clip edges doesn't remove it without actual phase-cancel editing.",
-  "pub_date": "2026-04-10T23:00:00Z",
+  "version": "0.2.18",
+  "notes": "v0.2.18: Self Monitor + fix clip recording. (1) You can now hear yourself in peer mode — new Self Monitor slider on the session screen controls how loud your own signal plays back through your speakers. (2) Exported clips now include BOTH peer and local audio at full level, regardless of your monitor setting. Previously the clip only captured the peer. Default monitor level 0.7.",
+  "pub_date": "2026-04-10T23:30:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjFPVzZRdE0ra3l1SWpxN0pxU25XWUdtMWlJN29EYnM0NGFkcytmeXNrL2hiVk96dkYvMENBQng3dDF5RFowVHhnUVJMQVIyaFY5QXducnZwbFJ6blFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODY0NTc4CWZpbGU6SmFtU3luY18wLjIuMTdfeDY0LXNldHVwLmV4ZQppZlVPZkU1cVR3V1hUTTV3WTU4YzNvVHFTZWlxa3oyTVFYMGVNaHloaFpMK0xEOG84eHRUWmdMcUV1NGM1OGIzQW8zNVVxclFDdndlZHBzZ0h1VjJCZz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.17/JamSync_0.2.17_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnpRV2V0dFJHSzMwVHRsTnFEb0xlZmRmL2lwZ3ZEdi9ialpUWWlPMEFtRG1RcnZadFRRa0dDclRRR09CNHVodlFKNDlianA2RmtrWkhyV00wcmQ4bEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODY3MjgzCWZpbGU6SmFtU3luY18wLjIuMThfeDY0LXNldHVwLmV4ZQpTS0lXL2QzNkZWTG9lZWFTd0E5bndXMmZweFFIQm5VYXFmZDZYa0JEQjRLVjZldFQ5cVZORUkyUjczdEYxUCtmVllYUktFQ2s0VHlXMnZ6QmZHTHJDdz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.18/JamSync_0.2.18_x64-setup.exe"
     }
   }
 }
