@@ -1,11 +1,11 @@
 {
-  "version": "0.3.1",
-  "notes": "v0.3.1: Loopback video self-test. Pick Loopback mode + toggle Video on to test the full encode/fragment/UDP/reassemble/decode pipeline on your own machine without needing a peer. Both self-view and peer-view will show your webcam — if they match, video is working end-to-end. No changes to Room or Direct modes.",
-  "pub_date": "2026-04-11T19:00:00Z",
+  "version": "0.3.2",
+  "notes": "v0.3.2: Video toggle fixes. (1) Codec detection — now dynamically probes H.264 Constrained Baseline, H.264 Baseline, and VP8 and picks whichever the system supports, so the encoder doesn't fail silently on hardware that can't do H.264. (2) Error messages now stay visible above the video panel instead of unmounting when the toggle flips back off. (3) Camera picker dropdown appears when more than one webcam is detected, and the active codec is shown next to the Video label for debugging.",
+  "pub_date": "2026-04-11T19:15:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnhrNk1tSS9JMEd3YnFoMmhZNnVzeTUxNGxNK1ExUlhaUlVVZkVYYXZhS0szV09EdzJXckhyK2VjNUpEMElOczVtYVlnVGJrS3BweW56RW9SYUF6WEFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTM3OTcwCWZpbGU6SmFtU3luY18wLjMuMV94NjQtc2V0dXAuZXhlCnhlaEx6endEcTB2VnB2Y1VrekJJVmhDaFlSeUhsdXV6eHFLTXBnQzhRZXQ0YWFmbU0rQmdlVjRsMk9EamIvdnNUeTg3eXVxR2h0ZHBsckdaeFo0NkFnPT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.1/JamSync_0.3.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjlzSnp2SVhpWFhUMlpBTTg1V1QyVHpzOGczZysxZVhpakRYZG1POU5zVll5SDRhdmJnQStxZE92Vk1wZXo1amttZ051TnoyUXhHcXlzMFZiMmdDZ3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTM4OTAwCWZpbGU6SmFtU3luY18wLjMuMl94NjQtc2V0dXAuZXhlCjQxSDN1U1Zmd3NZb2dyTHdHS2pmUFlHMjdtaWwzbFdHN3VoaDJDYmJyTWRJR2Q1d29ncGJhdkgyNlIyVFd5Umd3VHUyRUpCaGxOcEpkUjlXaWk3ZUR3PT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.2/JamSync_0.3.2_x64-setup.exe"
     }
   }
 }
