@@ -1,11 +1,11 @@
 {
-  "version": "0.2.19",
-  "notes": "v0.2.19: Pre-connect input meter + no-signal banner. (1) Live input meter on the Setup screen — pick your mic and channel, watch the meter, and confirm signal is flowing before committing to a session. Shows a dB readout with color bands (green / yellow / red) and a 'No signal' hint when silent. (2) After connecting, if the mic input stays silent (below -60 dB) for 3 seconds, a dismissible banner appears pointing you at channel selection, mic mute, and Windows microphone privacy. Both features exist to catch the #1 onboarding failure: user picked the wrong input device or channel.",
-  "pub_date": "2026-04-11T14:15:00Z",
+  "version": "0.3.0",
+  "notes": "v0.3.0: Peer-to-peer video (MVP). Enable the new Video toggle on the session screen to share your webcam with your jam partner. The video path runs on a completely isolated UDP socket (local_port+1), its own STUN/hole-punch, and its own threads — audio latency is unchanged. Hardcoded 720p30 H.264 via WebCodecs, hardware-accelerated on most systems. Peers running v0.2.x continue to work audio-only.",
+  "pub_date": "2026-04-11T18:50:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QndoVFhhbi9DbW05NUE0d1hUM2lkY2dQUG4wVG5ZVkVkTFlQNmU5T08wSnViNXJiNm55U2N3V1FYYSt5WC9YalNyUktpcXpXdW9IYUNDQWEwRnBRSkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTMxMjMzCWZpbGU6SmFtU3luY18wLjIuMTlfeDY0LXNldHVwLmV4ZQpwQjRzajZwNHptM254Ny84L1JLNzFtQkdUZ0JQSTVaekgzeXZJVzVvdEc5R0NXVWxMUERFd1NQN3gvZndaWWFjMENsbUs3L1YrZEFNZ0R3OG9PTnFEQT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.19/JamSync_0.2.19_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjdyVGMxaTJkZC9aZ2p0MzlnWjdGa01DK0hTS296bThqV3FnazNObnVVNjRmQXZVci8rRmtMRXoxZUw0dG5UV2VidjN3Vnk0VnZWL3FKM2Q3c21KZ3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTM3MzM1CWZpbGU6SmFtU3luY18wLjMuMF94NjQtc2V0dXAuZXhlCjhvYWhsQjNrT0RPb1RzeFJrbzlzcDNxcFpEVCtiYkJXaTM2RTJlRW92WUt0LzRUSFRrbTV3K3g1NUhtdURFcnFrdzdKL1Avbm9PZVA5T0EzR1BUcUF3PT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.0/JamSync_0.3.0_x64-setup.exe"
     }
   }
 }
