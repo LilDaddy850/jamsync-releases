@@ -1,11 +1,11 @@
 {
-  "version": "0.2.18",
-  "notes": "v0.2.18: Self Monitor + fix clip recording. (1) You can now hear yourself in peer mode — new Self Monitor slider on the session screen controls how loud your own signal plays back through your speakers. (2) Exported clips now include BOTH peer and local audio at full level, regardless of your monitor setting. Previously the clip only captured the peer. Default monitor level 0.7.",
-  "pub_date": "2026-04-10T23:30:00Z",
+  "version": "0.2.19",
+  "notes": "v0.2.19: Pre-connect input meter + no-signal banner. (1) Live input meter on the Setup screen — pick your mic and channel, watch the meter, and confirm signal is flowing before committing to a session. Shows a dB readout with color bands (green / yellow / red) and a 'No signal' hint when silent. (2) After connecting, if the mic input stays silent (below -60 dB) for 3 seconds, a dismissible banner appears pointing you at channel selection, mic mute, and Windows microphone privacy. Both features exist to catch the #1 onboarding failure: user picked the wrong input device or channel.",
+  "pub_date": "2026-04-11T14:15:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnpRV2V0dFJHSzMwVHRsTnFEb0xlZmRmL2lwZ3ZEdi9ialpUWWlPMEFtRG1RcnZadFRRa0dDclRRR09CNHVodlFKNDlianA2RmtrWkhyV00wcmQ4bEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODY3MjgzCWZpbGU6SmFtU3luY18wLjIuMThfeDY0LXNldHVwLmV4ZQpTS0lXL2QzNkZWTG9lZWFTd0E5bndXMmZweFFIQm5VYXFmZDZYa0JEQjRLVjZldFQ5cVZORUkyUjczdEYxUCtmVllYUktFQ2s0VHlXMnZ6QmZHTHJDdz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.18/JamSync_0.2.18_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QndoVFhhbi9DbW05NUE0d1hUM2lkY2dQUG4wVG5ZVkVkTFlQNmU5T08wSnViNXJiNm55U2N3V1FYYSt5WC9YalNyUktpcXpXdW9IYUNDQWEwRnBRSkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTMxMjMzCWZpbGU6SmFtU3luY18wLjIuMTlfeDY0LXNldHVwLmV4ZQpwQjRzajZwNHptM254Ny84L1JLNzFtQkdUZ0JQSTVaekgzeXZJVzVvdEc5R0NXVWxMUERFd1NQN3gvZndaWWFjMENsbUs3L1YrZEFNZ0R3OG9PTnFEQT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.2.19/JamSync_0.2.19_x64-setup.exe"
     }
   }
 }
