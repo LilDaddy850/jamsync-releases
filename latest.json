@@ -1,11 +1,11 @@
 {
-  "version": "0.3.7",
-  "notes": "v0.3.7 CRITICAL FIX: v0.3.6 video clips could crash the entire PC on playback because MediaRecorder was producing multi-GB files at unbounded bitrate and the frontend→Rust IPC was sending them as JSON number arrays with 5-10x bloat. DELETE any .webm files from your v0.3.6 recording session before installing — do not try to play them. v0.3.7 hard-caps video bitrate at 2 Mbps and audio at 128 kbps, switches IPC to base64 via FileReader (predictable and lean), prefers VP8 over VP9 for Windows Media Player / Films & TV compatibility, and adds a 250 MB frontend guard + on-disk size verification in Rust. Audio recording path untouched.",
-  "pub_date": "2026-04-11T21:15:00Z",
+  "version": "0.3.8",
+  "notes": "v0.3.8: Video clip save feedback. v0.3.7 silently swallowed save errors to devtools console, so when the new safety guards rejected a blob the user had no idea why — it just looked like nothing happened. v0.3.8 adds visible success and error banners above the video card: success shows the save path, errors show the exact exception message with a dismiss button. Also adds a 1-second minimum record duration to prevent the empty-blob race where clicking Record → Stop within a few hundred ms produced a sub-1KB blob that the size guards rejected. Press Ctrl+Shift+I to open devtools for full verbose logs.",
+  "pub_date": "2026-04-11T22:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjdrNVdtREVWVGRaR1pZTm9PVTYzVWh2QXYzY05DNDZPOWtZbStXNkhHeHhwMVhjNWpxcGhOMW45TmZib0lHTm54Q1dmVkp0ZDIwTGlWK1E0TEZDUmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTQ3MjgzCWZpbGU6SmFtU3luY18wLjMuN194NjQtc2V0dXAuZXhlCnA1enhsRUFmbzdubmRWOFVNdHdxY2dJdTFFY2szeXgyaXYrdjdITmpXWGJManh2S2lORUxjZHhIU0IxUzRYVVpyLzMxbDZoSVhzem9VcEhLSFNrRkRnPT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.7/JamSync_0.3.7_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qnh5SWxnMkVZSzEwU3BlYUdBTnNJZzYvNzF2WkNYZEE4ZkN0cW9qcEd6aExCcVV5SXdwNVUxQ1hmYlgxVnd6Smxud1ZKTTU3NnRiWWZmcHlWakJzRGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTUwMzAwCWZpbGU6SmFtU3luY18wLjMuOF94NjQtc2V0dXAuZXhlCkhVRVpGSTEvTGg3TW90Ny9GY21rOVl0YnkyTG9TVjRYQ2tXTEx3SkY1eTEwYUZtZlQ0eFh2NitBMjU5V01YM0VERU9OanJORWg4blZXK2lKNU9TMEJnPT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.8/JamSync_0.3.8_x64-setup.exe"
     }
   }
 }
