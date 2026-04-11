@@ -1,11 +1,11 @@
 {
-  "version": "0.3.0",
-  "notes": "v0.3.0: Peer-to-peer video (MVP). Enable the new Video toggle on the session screen to share your webcam with your jam partner. The video path runs on a completely isolated UDP socket (local_port+1), its own STUN/hole-punch, and its own threads — audio latency is unchanged. Hardcoded 720p30 H.264 via WebCodecs, hardware-accelerated on most systems. Peers running v0.2.x continue to work audio-only.",
-  "pub_date": "2026-04-11T18:50:00Z",
+  "version": "0.3.1",
+  "notes": "v0.3.1: Loopback video self-test. Pick Loopback mode + toggle Video on to test the full encode/fragment/UDP/reassemble/decode pipeline on your own machine without needing a peer. Both self-view and peer-view will show your webcam — if they match, video is working end-to-end. No changes to Room or Direct modes.",
+  "pub_date": "2026-04-11T19:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjdyVGMxaTJkZC9aZ2p0MzlnWjdGa01DK0hTS296bThqV3FnazNObnVVNjRmQXZVci8rRmtMRXoxZUw0dG5UV2VidjN3Vnk0VnZWL3FKM2Q3c21KZ3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTM3MzM1CWZpbGU6SmFtU3luY18wLjMuMF94NjQtc2V0dXAuZXhlCjhvYWhsQjNrT0RPb1RzeFJrbzlzcDNxcFpEVCtiYkJXaTM2RTJlRW92WUt0LzRUSFRrbTV3K3g1NUhtdURFcnFrdzdKL1Avbm9PZVA5T0EzR1BUcUF3PT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.0/JamSync_0.3.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnhrNk1tSS9JMEd3YnFoMmhZNnVzeTUxNGxNK1ExUlhaUlVVZkVYYXZhS0szV09EdzJXckhyK2VjNUpEMElOczVtYVlnVGJrS3BweW56RW9SYUF6WEFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTM3OTcwCWZpbGU6SmFtU3luY18wLjMuMV94NjQtc2V0dXAuZXhlCnhlaEx6endEcTB2VnB2Y1VrekJJVmhDaFlSeUhsdXV6eHFLTXBnQzhRZXQ0YWFmbU0rQmdlVjRsMk9EamIvdnNUeTg3eXVxR2h0ZHBsckdaeFo0NkFnPT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.1/JamSync_0.3.1_x64-setup.exe"
     }
   }
 }
