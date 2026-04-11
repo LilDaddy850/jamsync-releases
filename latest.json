@@ -1,11 +1,11 @@
 {
-  "version": "0.3.6",
-  "notes": "v0.3.6: Video clip recording on the Record button. When Video is on, Record now captures a composited peer+self WebM with local mic audio and saves it to your recording folder. Self-view is a mirrored PIP in whichever corner the jamsync watermark isn't currently in — the watermark rotates between all four corners every 5 seconds, TikTok-style, so it can't be cropped off. When Video is off, Record behaves exactly like before (Rust WAV). Known limits this release: peer audio not yet in video clips (v0.3.7), rolling 30/60s buttons still audio-only (v0.3.7), animated end-card branding with jamsync_tag sound is v0.3.8.",
-  "pub_date": "2026-04-11T20:30:00Z",
+  "version": "0.3.7",
+  "notes": "v0.3.7 CRITICAL FIX: v0.3.6 video clips could crash the entire PC on playback because MediaRecorder was producing multi-GB files at unbounded bitrate and the frontend→Rust IPC was sending them as JSON number arrays with 5-10x bloat. DELETE any .webm files from your v0.3.6 recording session before installing — do not try to play them. v0.3.7 hard-caps video bitrate at 2 Mbps and audio at 128 kbps, switches IPC to base64 via FileReader (predictable and lean), prefers VP8 over VP9 for Windows Media Player / Films & TV compatibility, and adds a 250 MB frontend guard + on-disk size verification in Rust. Audio recording path untouched.",
+  "pub_date": "2026-04-11T21:15:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qnc3M2JmTXc1eDNURlcyeDZmRGl6RGt3dEdRNlZQOEljc2lGOG1ZdlRyeGVuNXNzellRQjdsNVJ5cUkycXVuaGMxK2pKajhONG1PdnJyajBLRDUzd0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTQzNjg3CWZpbGU6SmFtU3luY18wLjMuNl94NjQtc2V0dXAuZXhlCkV3YzAyRStEMTdkTTRKTHZESytJRm9OSmhXMmZKUE83S1owenhjOS9URytUZHEwLzYvdzFPTThUQXR1QnVSblRlZmxDK3FzQ3g2ZlVBaHd1NXliSEFRPT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.6/JamSync_0.3.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjdrNVdtREVWVGRaR1pZTm9PVTYzVWh2QXYzY05DNDZPOWtZbStXNkhHeHhwMVhjNWpxcGhOMW45TmZib0lHTm54Q1dmVkp0ZDIwTGlWK1E0TEZDUmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTQ3MjgzCWZpbGU6SmFtU3luY18wLjMuN194NjQtc2V0dXAuZXhlCnA1enhsRUFmbzdubmRWOFVNdHdxY2dJdTFFY2szeXgyaXYrdjdITmpXWGJManh2S2lORUxjZHhIU0IxUzRYVVpyLzMxbDZoSVhzem9VcEhLSFNrRkRnPT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.7/JamSync_0.3.7_x64-setup.exe"
     }
   }
 }
