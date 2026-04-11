@@ -1,11 +1,11 @@
 {
-  "version": "0.3.3",
-  "notes": "v0.3.3: Video ACL fix. Tauri 2.x was blocking the frontend listen() call for video_frame_ready events with 'Command plugin:event|listen not allowed by ACL' because the core:event permission wasn't granted in capabilities. Added core:event:default to the capabilities file. If v0.3.2's video toggle was failing with an ACL error, this is the fix.",
-  "pub_date": "2026-04-11T19:25:00Z",
+  "version": "0.3.4",
+  "notes": "v0.3.4: Fullscreen video mode. Click the expand icon next to the Video toggle to blow the peer video up to fill the whole app window, with your self-view as a picture-in-picture in the corner. Escape or the Exit button returns to compact mode. Also audited the room-mode peer-to-peer video wiring end-to-end — cross-internet peer testing is expected to work.",
+  "pub_date": "2026-04-11T19:40:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjhPOHVLL2NNR2pId241cHQyZzhENmg1em9lNjdJL1RZTE9CbWFrZ1RZbHpzTGJQcmlvWVZRRXY3SnpVWHgwZGNvU29oMlI2NzhMaVdTeWdvL3EyR3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTM5MzExCWZpbGU6SmFtU3luY18wLjMuM194NjQtc2V0dXAuZXhlCnVjcXlVcVAxM0dnaHhRN3Q2YW9jbVNvbk1RM3RvZFF5bVo5NTlmNjFXUU9pOEZDdkQzKzdDTWQxUkplc3NqV3MrenJFc1grL3FQbG9CeWhqWXdEUkFnPT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.3/JamSync_0.3.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjJ6WGdyMVFJVnM1TEFpN2JPd1dvSEo5bGY1dTBPYzM1L0hzTnhXYXoySU1ET21xT2M3aFNLU2c4MTMyRlk1OXUzekFJQnZmcDZ0UXRRRnBGZEpRL0FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTQwMTMxCWZpbGU6SmFtU3luY18wLjMuNF94NjQtc2V0dXAuZXhlClZTOElOTlFWZlcrMGJkeGs1QkRmNHE2NEFmNGRuTjEvb1hqRG9wMG10VlhqQllqUnptOTlPYmZMdEk2aVFkcm5LaDM0STJhdWsxbldWazZJNDM1UkN3PT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.4/JamSync_0.3.4_x64-setup.exe"
     }
   }
 }
