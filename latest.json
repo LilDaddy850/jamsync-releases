@@ -1,11 +1,11 @@
 {
-  "version": "0.3.2",
-  "notes": "v0.3.2: Video toggle fixes. (1) Codec detection — now dynamically probes H.264 Constrained Baseline, H.264 Baseline, and VP8 and picks whichever the system supports, so the encoder doesn't fail silently on hardware that can't do H.264. (2) Error messages now stay visible above the video panel instead of unmounting when the toggle flips back off. (3) Camera picker dropdown appears when more than one webcam is detected, and the active codec is shown next to the Video label for debugging.",
-  "pub_date": "2026-04-11T19:15:00Z",
+  "version": "0.3.3",
+  "notes": "v0.3.3: Video ACL fix. Tauri 2.x was blocking the frontend listen() call for video_frame_ready events with 'Command plugin:event|listen not allowed by ACL' because the core:event permission wasn't granted in capabilities. Added core:event:default to the capabilities file. If v0.3.2's video toggle was failing with an ACL error, this is the fix.",
+  "pub_date": "2026-04-11T19:25:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjlzSnp2SVhpWFhUMlpBTTg1V1QyVHpzOGczZysxZVhpakRYZG1POU5zVll5SDRhdmJnQStxZE92Vk1wZXo1amttZ051TnoyUXhHcXlzMFZiMmdDZ3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTM4OTAwCWZpbGU6SmFtU3luY18wLjMuMl94NjQtc2V0dXAuZXhlCjQxSDN1U1Zmd3NZb2dyTHdHS2pmUFlHMjdtaWwzbFdHN3VoaDJDYmJyTWRJR2Q1d29ncGJhdkgyNlIyVFd5Umd3VHUyRUpCaGxOcEpkUjlXaWk3ZUR3PT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.2/JamSync_0.3.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjhPOHVLL2NNR2pId241cHQyZzhENmg1em9lNjdJL1RZTE9CbWFrZ1RZbHpzTGJQcmlvWVZRRXY3SnpVWHgwZGNvU29oMlI2NzhMaVdTeWdvL3EyR3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTM5MzExCWZpbGU6SmFtU3luY18wLjMuM194NjQtc2V0dXAuZXhlCnVjcXlVcVAxM0dnaHhRN3Q2YW9jbVNvbk1RM3RvZFF5bVo5NTlmNjFXUU9pOEZDdkQzKzdDTWQxUkplc3NqV3MrenJFc1grL3FQbG9CeWhqWXdEUkFnPT0K",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.3/JamSync_0.3.3_x64-setup.exe"
     }
   }
 }
