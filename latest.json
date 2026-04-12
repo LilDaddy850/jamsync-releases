@@ -1,11 +1,11 @@
 {
-  "version": "0.3.24",
-  "notes": "v0.3.24: Crossfade at end card transition. 1ms crossfade between jam and end card audio. Full pipeline audit found no other artifact sources.",
-  "pub_date": "2026-04-12T20:00:00Z",
+  "version": "0.3.25",
+  "notes": "v0.3.25: Rolling video clips + codec negotiation. Save-last-30s/60s now saves VIDEO clips when video is on (audio-only when off, backwards compat). Peers negotiate the best shared codec via signaling.",
+  "pub_date": "2026-04-12T22:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjhYT2dxZGc4K25tTjJJa0VQRHZQU3cyRDF4MHN2TkhqaWtiTXhNQXp4c0M1M0g0T3M2M3B2V3N4SzBUNmd6N3FDUFpUdWlrSzdLVGVwNEVNdVNYdEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDE1MzQ4CWZpbGU6SmFtU3luY18wLjMuMjRfeDY0LXNldHVwLmV4ZQpLa3lBQmlQRnVnYnhDRFpYNnhlRWxwRWNUYmc1aDJjN203eGQva1dBZDZvTExjZG54MEhlWjJiYTRTSTh5M09nbUxVdE1VTGxXQWxrR1AybGNCS3REZz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.24/JamSync_0.3.24_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjdDVk9CMDFEM3ZFTU1TSjh1T1lqZmdLMHVVTWN2TEF6QnJjbVBGYTlKTkx3aVk0REVEUEloRFE2OGh2cnVucFh1ZFJISHRUY3M5WVhoOXpLSG9pM1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDIwNzc4CWZpbGU6SmFtU3luY18wLjMuMjVfeDY0LXNldHVwLmV4ZQpVL05OeXExWjhwRFJKUDc3MDhqNlRqWUJsaWtnUTVsL0hvSjYyaDQ1dXk2eklDTlhkUlZPd0RjbGlvSXl1UWlBZkVCRGhuRmNYdm1oWk54RkkvMGtDUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.25/JamSync_0.3.25_x64-setup.exe"
     }
   }
 }
