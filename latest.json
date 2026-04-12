@@ -1,11 +1,11 @@
 {
-  "version": "0.3.35",
-  "notes": "v0.3.35: Audio exported BEFORE stopping recorder. Eliminates onstop flush delay desync. Removed -shortest flag. End card temporarily off rolling clips.",
-  "pub_date": "2026-04-13T06:00:00Z",
+  "version": "0.3.36",
+  "notes": "v0.3.36: Frame-accurate trim. Two-step ffmpeg: output-level -ss (after -i) for exact frame seeking instead of keyframe-aligned input-level seek. Fixes the 3-second vertical desync.",
+  "pub_date": "2026-04-13T06:30:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QisySWZwZm1UVkQxSnpOODVkUHRPUEZwVW1UUVU5Ynh6eGNUbGZVRTNENjhaajNGQlRUdHloem9KbGFaSXZUQ2dOVEpHMCtPd0krZmtuNFBRYUFDUlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDM0MjEwCWZpbGU6SmFtU3luY18wLjMuMzVfeDY0LXNldHVwLmV4ZQplcEpXa2dDWnEvekYreHF1SzV5Qzgxb2MxaExkUGxsQWZKTGhYaUFUWnJwRkNZTEN5dUhBdHlnbDl5UlJhWEViVFRhY3NKRXVOL0k4UmY4YkFMc1dBZz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.35/JamSync_0.3.35_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjJ3dlpjQWtZa2g4R2ZudmZVbHRNOGN4ZVV5N2MvbTEyd2Q0Ym4xY200cnRVZnRYRmxaMHBWL0NHcm1CdVZML296K05ndUU3WUIyb1h4bUlja1MvZ1FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDM1MTgzCWZpbGU6SmFtU3luY18wLjMuMzZfeDY0LXNldHVwLmV4ZQpidVdRZDBJcHg4VEdzT0ZkbDJOOVdORG1URHlpZXNOTjFhRzgyYmNMOUtZSWo3NllwMkltWjJvWUdMcnFVdXg4Z0l0RTRxR05xNnhYZ0JOQ1BHejVDUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.36/JamSync_0.3.36_x64-setup.exe"
     }
   }
 }
