@@ -1,11 +1,11 @@
 {
-  "version": "0.3.29",
-  "notes": "v0.3.29: Async rolling clips — promise-based flush, accurate duration, format change race fix.",
-  "pub_date": "2026-04-13T02:00:00Z",
+  "version": "0.3.30",
+  "notes": "v0.3.30: 30s cap on rolling buffer. Silent rotation discards old video every 30s so clips never exceed 30s. Async promise flush + matching audio duration for A/V sync.",
+  "pub_date": "2026-04-13T03:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjkxUDNFMHdON0JhTGFkYitpeUxPOStGaXoxL0Z2ZzJFbFFqV1VxN2hDdy9VQ3gxNU14MWRaVVorbkFDekJEbWRKV2VPV3p0dzhOOWJqSkkyM2lXMkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDI5MTI0CWZpbGU6SmFtU3luY18wLjMuMjlfeDY0LXNldHVwLmV4ZQp6a1FYVUV6dHk2QkcySFdzaHJpaTh3a1EvZlJsTUlVd0R1QXJlcnhldmprQkFoMERwL0h5dXZGbUs5M2Z2NE1lZEJrTlpHS1ZNeXB1Y09QQkxaZU9Ddz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.29/JamSync_0.3.29_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnhRSHROcTE5QlZqVm5YOWZJYWFWeTFWUXB6YTlHYlB3MFlZUC9uYTZnTG56cjltbUxVbGpScVJOSk5ucG1raW9lRzVRWXZUcEM5S29sd3MyKys2UncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDI5OTA3CWZpbGU6SmFtU3luY18wLjMuMzBfeDY0LXNldHVwLmV4ZQpYekVVZjRSRWlyZExrZ1Z0Qzh0eExVTGtXYXhKY1lybUlSWUU1ZXMvM3VDT0htNHNYUDNtaDAzUVVYNit5UXhRK1ZBelpDa3RxSzRpZVpjdTdKVW5Ddz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.30/JamSync_0.3.30_x64-setup.exe"
     }
   }
 }
