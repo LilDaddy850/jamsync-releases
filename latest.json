@@ -1,11 +1,1 @@
-{
-  "version": "0.3.14",
-  "notes": "v0.3.14: Show in folder button on the clip save success banner. After saving, click it — Windows Explorer opens with the file highlighted. If the file is there, mystery solved. If it isn't, that narrows the cause to OneDrive sync, path encoding, or something deleting it post-write.",
-  "pub_date": "2026-04-12T02:45:00Z",
-  "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjZmaTdaVGFvbmVjUHNDQjhKWjNqYS94OUVVOXcxeC9USElvMndNaFgwR1BhczNVa2hWdllqZkRmanE0aFFUTHlIUks5UWJiYzMwWWU3aVZZbDRSdWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTY0NzU1CWZpbGU6SmFtU3luY18wLjMuMTRfeDY0LXNldHVwLmV4ZQpoMUVYbHpScWx6KzV2QlRna3ZmYzN4S25TNGprcHpra3B3TzhNRys1Q1BNWTdabVpqbkZZVDVtSUdhdmFmbDdGVW54K0dBTFRXWnBBcUdTR1lraUZCdz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.14/JamSync_0.3.14_x64-setup.exe"
-    }
-  }
-}
+{"version":"0.3.15","notes":"v0.3.15: Show in folder now actually opens the correct folder with the file highlighted. Previous version double-quoted the explorer.exe argument — now uses raw_arg for exact command-line control. Removed Defender warning (files were saving correctly all along; Explorer just needed a refresh). Clean success banner with file size + path + working Show in folder button.","pub_date":"2026-04-12T03:00:00Z","platforms":{"windows-x86_64":{"signature":"dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnpJK25qL2wycUl2d3dISVU4OEF0bk1OQXpCbHlObXZNZWNmd2JyUG9DQ2UvaWN5cENaeVNtREtaNTNpVEcrLzRFT0xBL241K3RYalJUdlJlNWx2bWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTY1MjkwCWZpbGU6SmFtU3luY18wLjMuMTVfeDY0LXNldHVwLmV4ZQovZUNJYjBpMkE4c0hmSldPaVhtTi9mUmRuYzBUMDkzVGpXclRrL2pVeTRZZm91MEFETE9GT1hwZ09GV2RxOHNlSHFOcnQ4NFBaSEVwY016UzdsQ0NCZz09Cg==","url":"https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.15/JamSync_0.3.15_x64-setup.exe"}}}
