@@ -1,11 +1,11 @@
 {
-  "version": "0.3.27",
-  "notes": "v0.3.27: Fix rolling clips — self-view visible, A/V synced, format picker works, audio-only banner, end card audio included.",
-  "pub_date": "2026-04-13T00:00:00Z",
+  "version": "0.3.28",
+  "notes": "v0.3.28: Stable rolling clips. Removed flushCurrent (async timing bugs), fixed 30s audio duration, no PowerShell window, H.264 preferred for instant ffmpeg copy, ultrafast re-encode fallback.",
+  "pub_date": "2026-04-13T01:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjZ5a05HYksvTkpYa01rN3JwWTNFOEJSOGdIWkxmTUFwcDVkMlZqcEhjWU95V2R0SEZ6eEhDTFNabnoyYlhrQkpQQ2hqcmQxbkxSbkMySzdmaUV6c3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDI2MjgwCWZpbGU6SmFtU3luY18wLjMuMjdfeDY0LXNldHVwLmV4ZQo2S09RbFc2dWRmZVE2S256Sm1RSFZLTi82d21iQVBxK2E5Sk5tdXkvUVhQWHcxZ0N6K0FnZFB4WFliWlhDV0hsaEFMNU5aN1UvcnVCam9Vblh4aHNBUT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.27/JamSync_0.3.27_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qjc1N1R1NktKU085K0Fad0JNanpvdnh1alphaU1EQnR2dU40ZWMwWmdSWlR4cFF1UDlicERDUnZYQjBEa2hJbGtMVGdDUmpwVzIxN0xNRDJML291MndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDI4MzA3CWZpbGU6SmFtU3luY18wLjMuMjhfeDY0LXNldHVwLmV4ZQpiMExQZVhlWlI0bEdWUWxwWTNPSURpOGJMRmg2YUI5ZHFhWXFLSkFxcjd5VFVxNlVwckZGRWNjRHRVY1FpUVE2cThhZmtKSVg0YnZoNUsxYjgxUVNDdz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.28/JamSync_0.3.28_x64-setup.exe"
     }
   }
 }
