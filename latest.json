@@ -1,11 +1,11 @@
 {
-  "version": "0.3.34",
-  "notes": "v0.3.34: True continuous recording. No rotation, no blobs. Recorder runs for the whole session. ffmpeg trims to last 30/60s on save. Always gives exactly the requested duration.",
-  "pub_date": "2026-04-13T05:00:00Z",
+  "version": "0.3.35",
+  "notes": "v0.3.35: Audio exported BEFORE stopping recorder. Eliminates onstop flush delay desync. Removed -shortest flag. End card temporarily off rolling clips.",
+  "pub_date": "2026-04-13T06:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjJwVE5seHNQcCtPV2Vja0xnYmphNkUwbFZJOTdSeXZuY1RqdkJWRm1HaWMzdHA0c1ppc1ZrM09BZzZJMFVqNXdHUGUzcllKUTJRZVFoaVIzandBVGcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDMyNzAwCWZpbGU6SmFtU3luY18wLjMuMzRfeDY0LXNldHVwLmV4ZQpndjF2SXVlQ2UwTGNRb0ovR1REWWN3QmN3TzdqZDVtVE9ReHBMWVhQTjZYeFl4alZLZnJJZlpGUVRrb1J5NmNLVDFhRWpGYWk5Q1BHVExNUFArQUFEUT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.34/JamSync_0.3.34_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QisySWZwZm1UVkQxSnpOODVkUHRPUEZwVW1UUVU5Ynh6eGNUbGZVRTNENjhaajNGQlRUdHloem9KbGFaSXZUQ2dOVEpHMCtPd0krZmtuNFBRYUFDUlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDM0MjEwCWZpbGU6SmFtU3luY18wLjMuMzVfeDY0LXNldHVwLmV4ZQplcEpXa2dDWnEvekYreHF1SzV5Qzgxb2MxaExkUGxsQWZKTGhYaUFUWnJwRkNZTEN5dUhBdHlnbDl5UlJhWEViVFRhY3NKRXVOL0k4UmY4YkFMc1dBZz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.35/JamSync_0.3.35_x64-setup.exe"
     }
   }
 }
