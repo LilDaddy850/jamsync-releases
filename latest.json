@@ -1,11 +1,11 @@
 {
-  "version": "0.3.10",
-  "notes": "v0.3.10: DELETE any .webm from v0.3.6-v0.3.9 before testing. Defensive shrinking + size diagnostics for the video clip path after v0.3.9 STILL crashed Ed's PC when VLC played a saved clip. Composite canvas cut to 960x540, bitrate cut to 800 kbps, duration CAPPED at 60 seconds with auto-stop — even if the bitrate hint is ignored entirely, a one-minute clip can't physically be large enough to crash anything. Success banner now shows the exact file size so we can see whether the cap is working. Diagnostic step for Ed: disable VLC's hardware-accelerated decoding (Tools > Preferences > Input/Codecs) — if the new clips play fine with HW decode off but crash with it on, the fix is GPU-driver-side not file-size-side.",
-  "pub_date": "2026-04-11T22:45:00Z",
+  "version": "0.3.11",
+  "notes": "v0.3.11: Dual camera vertical stack layout. Video clips now record as 960x1080 with self-view mirrored on top and peer video on bottom — Snapchat-style side-by-side, ready to post to Instagram feed (1:1 or 4:5) or Reels/TikTok (pads to 9:16). No more picture-in-picture, no letterbox, no stretch — both cameras get full 960x540 cells. Thin divider line between them, jamsync watermark still rotates through the 4 corners every 5 seconds. Bitrate bumped to 1.5 Mbps to match the higher pixel count; 60-second duration cap stays put. Safe to re-enable hardware-accelerated decoding in VLC — v0.3.10 small-file approach eliminated the crash class.",
+  "pub_date": "2026-04-11T23:10:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjZCWGgzb0FvZ2grbURybWtlQlRrcHgzNVNNblMyOUROZTZZSUhFS2FPTHBienZhYVcwbExkYi9sQjh1WCtpUEVlbTVEcjh6YndUcFBhd1RGNTNLK1FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTUyMDc3CWZpbGU6SmFtU3luY18wLjMuMTBfeDY0LXNldHVwLmV4ZQpRZXNva0RUbkZ0RSt6ZStzZkkxZmJkTS9hUTNZbjhRTWlGZkNuZXNxWW4wa1ZtNkdmOU11OGVzR29FQVNSaDdHTk9lbm1Ea3J5OW1nY3FMTThOZE1BUT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.10/JamSync_0.3.10_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjV2SU4zUXdqYkNRRXJoVHZqS3dUeDFZQ20zNEVLTUkyMXhJTXN2MG1Ea3JQRmNWcWVGaU91QUFTNEN6L3M2RGxjNkp2dmdQMU1vd09acjd4TTl6cFFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTUzMDQ2CWZpbGU6SmFtU3luY18wLjMuMTFfeDY0LXNldHVwLmV4ZQpjUUhpSkZOalNwMFUvVlhKTlZua1hkVFIvbFZCSzkwb3kvQ0ZYK1djTUdmdXJuN2xWUHNLZ1dyUXVFZ0g0UjNRVVRDTjdOSVJ1cTFhcEJWUktSVWpEQT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.11/JamSync_0.3.11_x64-setup.exe"
     }
   }
 }
