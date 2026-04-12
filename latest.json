@@ -1,11 +1,11 @@
 {
-  "version": "0.3.13",
-  "notes": "v0.3.13: Fix sideways video in clips + H.264/MP4 restored for social media. Compositor now detects rotated camera frames and corrects them. Success banner includes Defender quarantine guidance for .mp4 files. If the saved file vanishes, check Windows Security protection history.",
-  "pub_date": "2026-04-12T02:30:00Z",
+  "version": "0.3.14",
+  "notes": "v0.3.14: Show in folder button on the clip save success banner. After saving, click it — Windows Explorer opens with the file highlighted. If the file is there, mystery solved. If it isn't, that narrows the cause to OneDrive sync, path encoding, or something deleting it post-write.",
+  "pub_date": "2026-04-12T02:45:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjMwR1piUlROWU5jczNtemN4MEQ3dFVWTkljOUwzRVd3cmhuOW5iZnFISjhWWXJXaFlCWVRJcWxPK2lVSm1RL21HVmNtM2Jwb2t5UkNSK2tNREc5a0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTY0MTgyCWZpbGU6SmFtU3luY18wLjMuMTNfeDY0LXNldHVwLmV4ZQpidEtQSGgyMnRXam5rNVVMdmkrYmtBaGZ3cHZQVTMwQTNxdFMzdnd2dEx4TmVUaGpyOVo2L1RRV2NCU2tJSEFNdUY5OWFCV0V4SDRGRUJTT20vV0ZCQT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.13/JamSync_0.3.13_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjZmaTdaVGFvbmVjUHNDQjhKWjNqYS94OUVVOXcxeC9USElvMndNaFgwR1BhczNVa2hWdllqZkRmanE0aFFUTHlIUks5UWJiYzMwWWU3aVZZbDRSdWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTY0NzU1CWZpbGU6SmFtU3luY18wLjMuMTRfeDY0LXNldHVwLmV4ZQpoMUVYbHpScWx6KzV2QlRna3ZmYzN4S25TNGprcHpra3B3TzhNRys1Q1BNWTdabVpqbkZZVDVtSUdhdmFmbDdGVW54K0dBTFRXWnBBcUdTR1lraUZCdz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.14/JamSync_0.3.14_x64-setup.exe"
     }
   }
 }
