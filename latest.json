@@ -1,6 +1,6 @@
 {
   "version": "0.3.24",
-  "notes": "v0.3.24: Crossfade at end card transition. 1ms (48 sample) linear crossfade between jam audio and end card audio eliminates the boundary pop. Full pipeline audit found no other artifact sources.",
+  "notes": "v0.3.24: Crossfade at end card transition. 1ms crossfade between jam and end card audio. Full pipeline audit found no other artifact sources.",
   "pub_date": "2026-04-12T20:00:00Z",
   "platforms": {
     "windows-x86_64": {
