@@ -1,11 +1,11 @@
 {
-  "version": "0.3.9",
-  "notes": "v0.3.9: Fix data URL parsing bug that broke every video clip save since v0.3.7. My blobToBase64 function split the FileReader data URL on the first comma to find the base64 payload, but the Blob's MIME type is 'video/webm;codecs=vp8,opus' — the comma inside codecs=vp8,opus got interpreted as the separator, so the 'base64' sent to Rust actually started with 'opus;base64,...' and the decoder choked on ';' (ASCII 59) at offset 4. Fix: find the specific ';base64,' marker instead of the first comma. Per RFC 2397 data URLs can have commas inside mediatype parameters — indexOf(',') was never correct.",
-  "pub_date": "2026-04-11T22:15:00Z",
+  "version": "0.3.10",
+  "notes": "v0.3.10: DELETE any .webm from v0.3.6-v0.3.9 before testing. Defensive shrinking + size diagnostics for the video clip path after v0.3.9 STILL crashed Ed's PC when VLC played a saved clip. Composite canvas cut to 960x540, bitrate cut to 800 kbps, duration CAPPED at 60 seconds with auto-stop — even if the bitrate hint is ignored entirely, a one-minute clip can't physically be large enough to crash anything. Success banner now shows the exact file size so we can see whether the cap is working. Diagnostic step for Ed: disable VLC's hardware-accelerated decoding (Tools > Preferences > Input/Codecs) — if the new clips play fine with HW decode off but crash with it on, the fix is GPU-driver-side not file-size-side.",
+  "pub_date": "2026-04-11T22:45:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjlUUXRIVjZLVnpuUTcxczR6Sy9aeVAvSnVkd0djOGhSU200VEFETnNnbGZTUWF5d2twaGRwRjBwNEMwdUdDMGtKc2xiZzVSZmoyTEcyTHdEY0RyL3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTUxMTMwCWZpbGU6SmFtU3luY18wLjMuOV94NjQtc2V0dXAuZXhlCkF5MVRLOUdUdWlReFVZcGhBUGtrclplZzh1aEZPNFB1YnAxQVVsVFArOGU2aTNOTlFMZDZQenFldGhoTDJEOG9RNXI2T3dnSXlhaUtRWHh5SXgzTURBPT0K",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.9/JamSync_0.3.9_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjZCWGgzb0FvZ2grbURybWtlQlRrcHgzNVNNblMyOUROZTZZSUhFS2FPTHBienZhYVcwbExkYi9sQjh1WCtpUEVlbTVEcjh6YndUcFBhd1RGNTNLK1FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTUyMDc3CWZpbGU6SmFtU3luY18wLjMuMTBfeDY0LXNldHVwLmV4ZQpRZXNva0RUbkZ0RSt6ZStzZkkxZmJkTS9hUTNZbjhRTWlGZkNuZXNxWW4wa1ZtNkdmOU11OGVzR29FQVNSaDdHTk9lbm1Ea3J5OW1nY3FMTThOZE1BUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.10/JamSync_0.3.10_x64-setup.exe"
     }
   }
 }
