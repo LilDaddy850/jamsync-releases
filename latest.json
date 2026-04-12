@@ -1,11 +1,11 @@
 {
-  "version": "0.3.30",
-  "notes": "v0.3.30: 30s cap on rolling buffer. Silent rotation discards old video every 30s so clips never exceed 30s. Async promise flush + matching audio duration for A/V sync.",
-  "pub_date": "2026-04-13T03:00:00Z",
+  "version": "0.3.31",
+  "notes": "v0.3.31: Fix vertical format desync. Audio now exports IMMEDIATELY after video clip, before the slow blob save. All three formats should sync correctly.",
+  "pub_date": "2026-04-13T03:30:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnhRSHROcTE5QlZqVm5YOWZJYWFWeTFWUXB6YTlHYlB3MFlZUC9uYTZnTG56cjltbUxVbGpScVJOSk5ucG1raW9lRzVRWXZUcEM5S29sd3MyKys2UncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDI5OTA3CWZpbGU6SmFtU3luY18wLjMuMzBfeDY0LXNldHVwLmV4ZQpYekVVZjRSRWlyZExrZ1Z0Qzh0eExVTGtXYXhKY1lybUlSWUU1ZXMvM3VDT0htNHNYUDNtaDAzUVVYNit5UXhRK1ZBelpDa3RxSzRpZVpjdTdKVW5Ddz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.30/JamSync_0.3.30_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjAwcEUvYmJZbU1NWVAwMHJ0RWdOOGpnTEVvTmkwTXFNaXBBL1hNaEx2MXJQeVpwY1A4ZXBQRGN1RDAwd0Y1bzNKOGZQWDJ1NGYrWnh3MnNBNmV6NFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDMwNzY4CWZpbGU6SmFtU3luY18wLjMuMzFfeDY0LXNldHVwLmV4ZQpUNEVCbHgyS282T0ZnZ0YzYlhlRnJvY2ZuMXZUYVF4REpuT0w3bEZDcmVTV2RJQ1BEd1hOYnFjSnBFc3NWNjBFRGEwMmY0ejJVSHJXcnZjQzZHNlZDQT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.31/JamSync_0.3.31_x64-setup.exe"
     }
   }
 }
