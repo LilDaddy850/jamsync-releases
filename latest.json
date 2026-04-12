@@ -1,11 +1,11 @@
 {
-  "version": "0.3.32",
-  "notes": "v0.3.32: Audio export inside onstop callback. Both video blob and audio capture happen at the exact same moment — zero delay, zero desync regardless of format/resolution.",
-  "pub_date": "2026-04-13T04:00:00Z",
+  "version": "0.3.33",
+  "notes": "v0.3.33: Fallback blob for short clips. Keeps previous rotation's 30s blob. If current recording < 10s when saving, uses the previous blob instead. Always ~30s of content.",
+  "pub_date": "2026-04-13T04:30:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QitLN2hCMnJhaVB3R2RXTnNLWlBiSFpINDFIZ2hNT2ZZbE51cjdMMDQxMXl4c0JsSFhmWnN6OTltWWNodk5xQ08vaURZbnc5Znl0dTY0Mlh4eno2a1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDMxMzk5CWZpbGU6SmFtU3luY18wLjMuMzJfeDY0LXNldHVwLmV4ZQoxQVpNRmxGT1F5SHJrRE5SbUpMdi81eUc4c1IxMHpEYXBpRFc0MUlIZDZHejJ0MEx3TFJudy9wc1hLUjJ2Ry9MZUJFQ3FxZTJBMDVwWTRQL001ODFEQT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.32/JamSync_0.3.32_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjVJdXhyejdHTGVVY2RsMDNpRUNTd0Zja2h5QWFPRVcxL3dYdUpjTmNJYW1IRWVBd2NwamhJaGMxNEd1elV3THZndVVzcFpiNTBKdCtwUnFwcFNhNHdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDMxOTI0CWZpbGU6SmFtU3luY18wLjMuMzNfeDY0LXNldHVwLmV4ZQpBeDMzdWFDd2Q2M0V2NGJsNU9Tdnd2UTlUSFY3V0lpVXJWN0JYa2QrYTFHcTM4d3VDdnlIZTFMNjE4RGNJWHFSdmpZU2hoOHpuK1RJK0hzVzJ5Y2tBZz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.33/JamSync_0.3.33_x64-setup.exe"
     }
   }
 }
