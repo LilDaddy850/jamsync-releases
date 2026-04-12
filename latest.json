@@ -1,11 +1,11 @@
 {
-  "version": "0.3.12",
-  "notes": "v0.3.12: 1080p quality + H.264 + format picker. Resolution now 1080p per cell (was 540p), bitrate 4 Mbps (was 1.5), H.264/MP4 preferred for sharper video + instant Windows playback (VP8/WebM fallback if needed). New format picker: Square (1:1), Portrait (4:5), Full Vertical (9:16) — choose before recording. Cover-crop fills each cell edge-to-edge. 60s duration cap + 30fps retained. 60fps coming in v0.3.13 once we raise the live camera feed.",
-  "pub_date": "2026-04-12T02:00:00Z",
+  "version": "0.3.13",
+  "notes": "v0.3.13: Fix sideways video in clips + H.264/MP4 restored for social media. Compositor now detects rotated camera frames and corrects them. Success banner includes Defender quarantine guidance for .mp4 files. If the saved file vanishes, check Windows Security protection history.",
+  "pub_date": "2026-04-12T02:30:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjM2bUpsdVlRYlhGWExzZmdRVk53ZHdKRDNJRkh4Q1NPUWNIZy9DR1N5UEtjRVZqRFkyTkgvc3NQSEZ4eHBpUXFGZFluT0ZIVEdXSFJhdmIvSjZLcnd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTYzNDM0CWZpbGU6SmFtU3luY18wLjMuMTJfeDY0LXNldHVwLmV4ZQo5ZjcxamEwTVF1N0dudkJ0WWFDUkYreEpVRzRVWTVuZDl1NzlhN1NjdU1BUFhQVnVHaXN2NzVQbm9RYnM4ZzNHUzk5RE5CeFdhRGs0OTNhRHJkK0pEdz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.12/JamSync_0.3.12_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjMwR1piUlROWU5jczNtemN4MEQ3dFVWTkljOUwzRVd3cmhuOW5iZnFISjhWWXJXaFlCWVRJcWxPK2lVSm1RL21HVmNtM2Jwb2t5UkNSK2tNREc5a0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTY0MTgyCWZpbGU6SmFtU3luY18wLjMuMTNfeDY0LXNldHVwLmV4ZQpidEtQSGgyMnRXam5rNVVMdmkrYmtBaGZ3cHZQVTMwQTNxdFMzdnd2dEx4TmVUaGpyOVo2L1RRV2NCU2tJSEFNdUY5OWFCV0V4SDRGRUJTT20vV0ZCQT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.13/JamSync_0.3.13_x64-setup.exe"
     }
   }
 }
