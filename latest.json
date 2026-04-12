@@ -1,11 +1,11 @@
 {
-  "version": "0.3.26",
-  "notes": "v0.3.26: Fix rolling clips — periodic restart (no corrupted timestamps) + self-view fixed (captured stream directly from callback, not React state).",
-  "pub_date": "2026-04-12T23:00:00Z",
+  "version": "0.3.27",
+  "notes": "v0.3.27: Fix rolling clips — self-view visible, A/V synced, format picker works, audio-only banner, end card audio included.",
+  "pub_date": "2026-04-13T00:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjdLQ1hRWTQvWGI1b3JFeTlYQkNRUkw4cE5VWGNCbitxZlhieHJnL0MyNTBSNGdXbEw1ZmtkTUkrTDFieC9wNnk0MVEwbDlQeG5vZ042OUFpakJYUWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDI0Njg5CWZpbGU6SmFtU3luY18wLjMuMjZfeDY0LXNldHVwLmV4ZQo2dlJlY0lYVExaOHd4aVB4M0tnUGk5R0dCeDdiejRnK0JHclcrZGNxbEpYeFlzRFNjYStlZHhuTjBQbm9jYUxSem04dGZoS2ZCaEw1QnhvTWE4WDBCUT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.26/JamSync_0.3.26_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjZ5a05HYksvTkpYa01rN3JwWTNFOEJSOGdIWkxmTUFwcDVkMlZqcEhjWU95V2R0SEZ6eEhDTFNabnoyYlhrQkpQQ2hqcmQxbkxSbkMySzdmaUV6c3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDI2MjgwCWZpbGU6SmFtU3luY18wLjMuMjdfeDY0LXNldHVwLmV4ZQo2S09RbFc2dWRmZVE2S256Sm1RSFZLTi82d21iQVBxK2E5Sk5tdXkvUVhQWHcxZ0N6K0FnZFB4WFliWlhDV0hsaEFMNU5aN1UvcnVCam9Vblh4aHNBUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.27/JamSync_0.3.27_x64-setup.exe"
     }
   }
 }
