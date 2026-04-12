@@ -1,11 +1,11 @@
 {
-  "version": "0.3.25",
-  "notes": "v0.3.25: Rolling video clips + codec negotiation. Save-last-30s/60s now saves VIDEO clips when video is on (audio-only when off, backwards compat). Peers negotiate the best shared codec via signaling.",
-  "pub_date": "2026-04-12T22:00:00Z",
+  "version": "0.3.26",
+  "notes": "v0.3.26: Fix rolling clips — periodic restart (no corrupted timestamps) + self-view fixed (captured stream directly from callback, not React state).",
+  "pub_date": "2026-04-12T23:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjdDVk9CMDFEM3ZFTU1TSjh1T1lqZmdLMHVVTWN2TEF6QnJjbVBGYTlKTkx3aVk0REVEUEloRFE2OGh2cnVucFh1ZFJISHRUY3M5WVhoOXpLSG9pM1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDIwNzc4CWZpbGU6SmFtU3luY18wLjMuMjVfeDY0LXNldHVwLmV4ZQpVL05OeXExWjhwRFJKUDc3MDhqNlRqWUJsaWtnUTVsL0hvSjYyaDQ1dXk2eklDTlhkUlZPd0RjbGlvSXl1UWlBZkVCRGhuRmNYdm1oWk54RkkvMGtDUT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.25/JamSync_0.3.25_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjdLQ1hRWTQvWGI1b3JFeTlYQkNRUkw4cE5VWGNCbitxZlhieHJnL0MyNTBSNGdXbEw1ZmtkTUkrTDFieC9wNnk0MVEwbDlQeG5vZ042OUFpakJYUWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDI0Njg5CWZpbGU6SmFtU3luY18wLjMuMjZfeDY0LXNldHVwLmV4ZQo2dlJlY0lYVExaOHd4aVB4M0tnUGk5R0dCeDdiejRnK0JHclcrZGNxbEpYeFlzRFNjYStlZHhuTjBQbm9jYUxSem04dGZoS2ZCaEw1QnhvTWE4WDBCUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.26/JamSync_0.3.26_x64-setup.exe"
     }
   }
 }
