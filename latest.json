@@ -1,11 +1,11 @@
 {
-  "version": "0.3.33",
-  "notes": "v0.3.33: Fallback blob for short clips. Keeps previous rotation's 30s blob. If current recording < 10s when saving, uses the previous blob instead. Always ~30s of content.",
-  "pub_date": "2026-04-13T04:30:00Z",
+  "version": "0.3.34",
+  "notes": "v0.3.34: True continuous recording. No rotation, no blobs. Recorder runs for the whole session. ffmpeg trims to last 30/60s on save. Always gives exactly the requested duration.",
+  "pub_date": "2026-04-13T05:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjVJdXhyejdHTGVVY2RsMDNpRUNTd0Zja2h5QWFPRVcxL3dYdUpjTmNJYW1IRWVBd2NwamhJaGMxNEd1elV3THZndVVzcFpiNTBKdCtwUnFwcFNhNHdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDMxOTI0CWZpbGU6SmFtU3luY18wLjMuMzNfeDY0LXNldHVwLmV4ZQpBeDMzdWFDd2Q2M0V2NGJsNU9Tdnd2UTlUSFY3V0lpVXJWN0JYa2QrYTFHcTM4d3VDdnlIZTFMNjE4RGNJWHFSdmpZU2hoOHpuK1RJK0hzVzJ5Y2tBZz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.33/JamSync_0.3.33_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjJwVE5seHNQcCtPV2Vja0xnYmphNkUwbFZJOTdSeXZuY1RqdkJWRm1HaWMzdHA0c1ppc1ZrM09BZzZJMFVqNXdHUGUzcllKUTJRZVFoaVIzandBVGcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDMyNzAwCWZpbGU6SmFtU3luY18wLjMuMzRfeDY0LXNldHVwLmV4ZQpndjF2SXVlQ2UwTGNRb0ovR1REWWN3QmN3TzdqZDVtVE9ReHBMWVhQTjZYeFl4alZLZnJJZlpGUVRrb1J5NmNLVDFhRWpGYWk5Q1BHVExNUFArQUFEUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.34/JamSync_0.3.34_x64-setup.exe"
     }
   }
 }
