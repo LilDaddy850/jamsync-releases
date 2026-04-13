@@ -1,11 +1,11 @@
 {
-  "version": "0.3.38",
-  "notes": "v0.3.38: Trim both audio AND video from their ends using ffprobe'd exact durations. Both files end at the same moment, both trimmed to last N seconds. Should eliminate all desync.",
-  "pub_date": "2026-04-13T08:00:00Z",
+  "version": "0.3.39",
+  "notes": "v0.3.39: Rolling WAV runs alongside MediaRecorder. Same output callback, same clock, same start time. ffmpeg trims both from their ends. Eliminates cross-clock desync entirely.",
+  "pub_date": "2026-04-13T09:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjJlOE9OaVViaXJ1LzJ0dHNQVlFJb1pqdnNEYll6aFlJVHgyelZwdFNPMnVlbGFjbkFSVkU0MFdvS1M4ZnhaKzF6c3g5MnByblc0MmlTTEVPWFJFdkF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDQzMTQ5CWZpbGU6SmFtU3luY18wLjMuMzhfeDY0LXNldHVwLmV4ZQpPZ05ZK3hFdlFpdUFXMloyY3oydjU5azdFVkRqdWRJN2tZeEtlYTdFSkZJaU9IdEg2SlZHMDBjK2d5Uis3WURRS0w5d29ZNEJJTHdoOHVncUV4dGtCUT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.38/JamSync_0.3.38_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qi93cWtuYnR4SmdESmZGQ0FvdkRTNVFpWkZKM3FUTUJTc1QyTTRYZ1J6UW1nZTk5U3lCdllBM3Nzb2JoQ3hXTjdreEFZdk5iWHVUdFpKUTk0UTV4V0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDQ1MzkzCWZpbGU6SmFtU3luY18wLjMuMzlfeDY0LXNldHVwLmV4ZQpqdExvT1VzbzNOWUw1U09qNCsxRFI4Y0g2SFUvSFdhVCthbkhTZnlZSFFwTENxUGdmSzZxRmc2eCtGYVpCS0hxeWRBU0t3N0EyT1BwNC9uNi94N2tCZz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.39/JamSync_0.3.39_x64-setup.exe"
     }
   }
 }
