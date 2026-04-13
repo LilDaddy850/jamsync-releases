@@ -1,11 +1,11 @@
 {
-  "version": "0.3.43",
-  "notes": "v0.3.43: End card audio on rolling clips. Branded sound plays at the end. End card visual coming next version.",
-  "pub_date": "2026-04-13T11:30:00Z",
+  "version": "0.3.44",
+  "notes": "v0.3.44: End card visual + audio on rolling clips. Logo animation appended via ffmpeg concat, scaled to match clip dimensions. Both end card audio and visual now play on every exported clip.",
+  "pub_date": "2026-04-13T12:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QitESDlMOU9mcEtaYVdsZko5YUl1eklYYVFYQXVhV2w4OWVJWjMxdFpBZXVOaGo2Ulc5SUhnMm54RnB1UDkvRTRNdEJTeFo3ZmFuRFIrSzdZL2VmdWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDQ3OTQwCWZpbGU6SmFtU3luY18wLjMuNDNfeDY0LXNldHVwLmV4ZQo2OFFTTGlWQnhoUWl3aTZUT3pUa0tFZEdYcEczSCtNUVJtczIyNEF4UEhUSkwxVzZPTkRxYVJ0dzBUWU1XVXpQT0M5VHpId3NJVS9CRU9ROXhxR3BBQT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.43/JamSync_0.3.43_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qi9VNDRwZW1qV3NHQVVZeEwrc0RsUkVCRDZaRDRsQWxHQUVsVE5TWXhKWUgwNUh4SGpITWI0K0lLSGo3Yk1ZYmlyb0RoRHUvVFp4UGh3NmJEQWpsZHdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDQ5OTgwCWZpbGU6SmFtU3luY18wLjMuNDRfeDY0LXNldHVwLmV4ZQpDUCszTFNLTWdjU3ZXeW5oQm95UWt0MFpUelhGWGk1bklWcWZFcE51S2dMV1lJTlpwd1lLYUI3UGY0akxwY2poMUVYQUxjaDZQK1A2ektFdU5iVk1Bdz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.44/JamSync_0.3.44_x64-setup.exe"
     }
   }
 }
