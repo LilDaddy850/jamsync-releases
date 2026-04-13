@@ -1,11 +1,11 @@
 {
-  "version": "0.3.48",
-  "notes": "v0.3.48: Bundled ffmpeg/ffprobe (no manual install needed). Metronome downbeat phase sync between peers (not just BPM).",
-  "pub_date": "2026-04-13T19:36:00Z",
+  "version": "0.3.49",
+  "notes": "v0.3.49: NTP-style clock offset correction for metronome sync. Downbeats align across machines regardless of system clock differences.",
+  "pub_date": "2026-04-13T19:54:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qjd6S1JCVWJsMVJTOWRxQk9jQUVoQTRwZlBtWjljRWpvMlo1UEZEdTF4eHpYTXJlVkpGN1RkbExXejI5NEhIVzRYSHlMOXhLbjlZdUptcG5Ka3JOZ0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MTIzMzU2CWZpbGU6SmFtU3luY18wLjMuNDhfeDY0LXNldHVwLmV4ZQpvM3JIMXdPb1FZL012d2FEa09MamxQUENkMUlyUW9pMXlDMHpHWWczRXlScEdib29wZ20yRUJudGJNMTIvbWFBRTNIN0JoQ2pRTkNXRkU0cDA2MWtCdz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.48/JamSync_0.3.48_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QngxY01OYllVc0grTU52RldBUVVhUm8vSWZ4WnI1c3pRd3d3bExlRmozZG44OXV6Qm5Cd3FGcDRuREVubFhmbGNXUHJQLys5OVpCdS9IZkQ4SitSN1FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MTI0NDMyCWZpbGU6SmFtU3luY18wLjMuNDlfeDY0LXNldHVwLmV4ZQpmdEI5T1pjU3VIbExRRE4wTEd0ME56VnFoSk9MS3kyZldHRjlMU2V2M1J4bGZqei8xZW90UnFmZ3JBckVMT0kxdmlxTUNSMUpjTlFYb3gzYlBXaXZEdz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.49/JamSync_0.3.49_x64-setup.exe"
     }
   }
 }
