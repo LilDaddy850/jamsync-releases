@@ -1,11 +1,11 @@
 {
-  "version": "0.3.39",
-  "notes": "v0.3.39: Rolling WAV runs alongside MediaRecorder. Same output callback, same clock, same start time. ffmpeg trims both from their ends. Eliminates cross-clock desync entirely.",
-  "pub_date": "2026-04-13T09:00:00Z",
+  "version": "0.3.40",
+  "notes": "v0.3.40: Stop video first, then WAV. Both end at the same moment. Trim from ends = same window. Should fix the remaining random desync.",
+  "pub_date": "2026-04-13T10:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qi93cWtuYnR4SmdESmZGQ0FvdkRTNVFpWkZKM3FUTUJTc1QyTTRYZ1J6UW1nZTk5U3lCdllBM3Nzb2JoQ3hXTjdreEFZdk5iWHVUdFpKUTk0UTV4V0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDQ1MzkzCWZpbGU6SmFtU3luY18wLjMuMzlfeDY0LXNldHVwLmV4ZQpqdExvT1VzbzNOWUw1U09qNCsxRFI4Y0g2SFUvSFdhVCthbkhTZnlZSFFwTENxUGdmSzZxRmc2eCtGYVpCS0hxeWRBU0t3N0EyT1BwNC9uNi94N2tCZz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.39/JamSync_0.3.39_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qi9kWldJYnRqbnQyeTR0NWVYQyt1SCtZL08vdHFLVDJIREg4eEF3OHBTTDVqMXphcFJBUHp4NmEwQWlBQXpuNllBUU1qUTFKeGliK21SeWRJK1hHZ1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDQ1OTk4CWZpbGU6SmFtU3luY18wLjMuNDBfeDY0LXNldHVwLmV4ZQpFaWRZNVIxWjVKcGhlaE1QaGt0MXhFQ0ZFWlB1UTVGdmI3SzdxanMxMDFyRDdIUFJnWVdjNUFESm9GZVdUVElGTDU3VXlzMnE5emNBMWVUQjR5ZnhEUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.40/JamSync_0.3.40_x64-setup.exe"
     }
   }
 }
