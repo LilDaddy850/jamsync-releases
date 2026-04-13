@@ -1,11 +1,11 @@
 {
-  "version": "0.3.46",
-  "notes": "v0.3.46: Peer test fixes. Video persists across Settings nav, unique rolling WAV filenames, record controls in fullscreen, format picker persists.",
-  "pub_date": "2026-04-13T15:00:00Z",
+  "version": "0.3.47",
+  "notes": "v0.3.47: SessionScreen stays mounted during Settings/Effects navigation. Video pipeline survives intact — no more one-way video loss or rolling clip issues after Settings visits. Fullscreen has recording controls.",
+  "pub_date": "2026-04-13T16:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qi9VLy94MHR5SkxUaHBPdkw5cHZueHVlaGlhVjA4ZktpYXdjMUJTMFlTbEQ3YVZsV1NpMUpWWXdDY0hhZ1NvVWVLbVV0SG5LL2s2THViaFErT2JpbncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MTIwNjYwCWZpbGU6SmFtU3luY18wLjMuNDZfeDY0LXNldHVwLmV4ZQpCeFN2V2JwOEZ4RUpVcmJ0Z0J3djhkQ1hnaGo4TXNpZjMzRG90ZFZmbmhIUzNsNUtaVFpiZnhjOFJEMmIrSjNpZUJhT1p5ei84S1h1UDhCYVdZeHREUT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.46/JamSync_0.3.46_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qi8zVlVFUlovWXdJbFB6S2crNFVVOWhZbktVZ0FJdS9XVjlUd0JxQk5zUFZQcC95SnJnbnNPS3VkM3pRMi92RW9razliTjNlWXhVSmNJYUZwZC80QkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MTIxODIwCWZpbGU6SmFtU3luY18wLjMuNDdfeDY0LXNldHVwLmV4ZQpBMzQ1Q2RGaGFVWWd5WnlyNWQ4b2pPbjhHS2lUUDN1N2lSNWtMU25sS2JxOTR4TE5jUkIzek9XWmxwbFF4Y2ZhYklqSUxkNWdnK2xUbmxaQVdac3hBUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.47/JamSync_0.3.47_x64-setup.exe"
     }
   }
 }
