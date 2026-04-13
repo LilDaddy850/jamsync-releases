@@ -1,11 +1,11 @@
 {
-  "version": "0.3.41",
-  "notes": "v0.3.41: Restart rolling WAV on format change. Both video and audio recorders always share the same start time — after saves AND after format changes.",
-  "pub_date": "2026-04-13T10:30:00Z",
+  "version": "0.3.42",
+  "notes": "v0.3.42: Rolling WAV temp file cleaned up on video disable / session end. No more stray .wav in Music folder.",
+  "pub_date": "2026-04-13T11:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjNhV0JQOWFFOUdnM01oQzAzVEEvZ0Q1VTg3c3JMMkluSS9Xdjg2RlZ3eTQrd1lNZlVPT0xmdjR0T3NTeGRZUEN4R3djM3JYdTc0TnNxWldDemkxVEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDQ2ODQyCWZpbGU6SmFtU3luY18wLjMuNDFfeDY0LXNldHVwLmV4ZQpBb0R1M1c2cEtFdHhNTWlxWjF5OTJOZ3hlRjJEencxbXc0ZFVxb3AxY25GdGI3T2N1aGo4MzRYZEhEYU41TzRzWXJ4ZERjZXpFSUx4Z1pFREdXRkpCZz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.41/JamSync_0.3.41_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjBlRTRFRys2aXFQSUx2YTVNYit6aVBLektsUk5wSFc3NlBFcU9RQzVDa1MwRkVQNmtRaGkzQnFhelhyck5USEh5aW9CdFUvNjdCa0U1Wmh5L0JxZmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDQ3NTYyCWZpbGU6SmFtU3luY18wLjMuNDJfeDY0LXNldHVwLmV4ZQpFMHE3L1lnc3Fia1pVUjFyZ0VLYXFodHozZkRXazMxVURyQXVQVjF0WU9RZ1U3d0ZxRWZiYWRGTlV6TjRvZzhXUVQ2cStSQ2JWMkk1WXpaVDJyVUFEUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.42/JamSync_0.3.42_x64-setup.exe"
     }
   }
 }
