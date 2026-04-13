@@ -1,11 +1,11 @@
 {
-  "version": "0.3.40",
-  "notes": "v0.3.40: Stop video first, then WAV. Both end at the same moment. Trim from ends = same window. Should fix the remaining random desync.",
-  "pub_date": "2026-04-13T10:00:00Z",
+  "version": "0.3.41",
+  "notes": "v0.3.41: Restart rolling WAV on format change. Both video and audio recorders always share the same start time — after saves AND after format changes.",
+  "pub_date": "2026-04-13T10:30:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qi9kWldJYnRqbnQyeTR0NWVYQyt1SCtZL08vdHFLVDJIREg4eEF3OHBTTDVqMXphcFJBUHp4NmEwQWlBQXpuNllBUU1qUTFKeGliK21SeWRJK1hHZ1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDQ1OTk4CWZpbGU6SmFtU3luY18wLjMuNDBfeDY0LXNldHVwLmV4ZQpFaWRZNVIxWjVKcGhlaE1QaGt0MXhFQ0ZFWlB1UTVGdmI3SzdxanMxMDFyRDdIUFJnWVdjNUFESm9GZVdUVElGTDU3VXlzMnE5emNBMWVUQjR5ZnhEUT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.40/JamSync_0.3.40_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjNhV0JQOWFFOUdnM01oQzAzVEEvZ0Q1VTg3c3JMMkluSS9Xdjg2RlZ3eTQrd1lNZlVPT0xmdjR0T3NTeGRZUEN4R3djM3JYdTc0TnNxWldDemkxVEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDQ2ODQyCWZpbGU6SmFtU3luY18wLjMuNDFfeDY0LXNldHVwLmV4ZQpBb0R1M1c2cEtFdHhNTWlxWjF5OTJOZ3hlRjJEencxbXc0ZFVxb3AxY25GdGI3T2N1aGo4MzRYZEhEYU41TzRzWXJ4ZERjZXpFSUx4Z1pFREdXRkpCZz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.41/JamSync_0.3.41_x64-setup.exe"
     }
   }
 }
