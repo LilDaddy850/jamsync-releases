@@ -1,11 +1,11 @@
 {
-  "version": "0.3.37",
-  "notes": "v0.3.37: ffprobe-based trim offset. Uses actual video duration (millisecond precision) instead of rounded JS estimate. Eliminates all trim-offset desync.",
-  "pub_date": "2026-04-13T07:00:00Z",
+  "version": "0.3.38",
+  "notes": "v0.3.38: Trim both audio AND video from their ends using ffprobe'd exact durations. Both files end at the same moment, both trimmed to last N seconds. Should eliminate all desync.",
+  "pub_date": "2026-04-13T08:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QisxaEh5T0poUE04SWhOTzd6QStlZTNvblFOcUFxekd2YitFdmFCMUtMZm5mQzF0eUdKMTFzd3hsbDU0akgxMnZOK2o1U2ZjL0xQWVNRbVBBSWNYRUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDM2MDYxCWZpbGU6SmFtU3luY18wLjMuMzdfeDY0LXNldHVwLmV4ZQpLMFJiNllLV2RqMFM4YzJWek5BNkozczczNnhIUDE2TGtoZmM5bFB6NFlsMjdTbm9yS2hTWS9UbTZxOHgwWHpnYnlGVXVjbWo1bHZtRjJ2UTZTc3NCQT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.37/JamSync_0.3.37_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjJlOE9OaVViaXJ1LzJ0dHNQVlFJb1pqdnNEYll6aFlJVHgyelZwdFNPMnVlbGFjbkFSVkU0MFdvS1M4ZnhaKzF6c3g5MnByblc0MmlTTEVPWFJFdkF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDQzMTQ5CWZpbGU6SmFtU3luY18wLjMuMzhfeDY0LXNldHVwLmV4ZQpPZ05ZK3hFdlFpdUFXMloyY3oydjU5azdFVkRqdWRJN2tZeEtlYTdFSkZJaU9IdEg2SlZHMDBjK2d5Uis3WURRS0w5d29ZNEJJTHdoOHVncUV4dGtCUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.38/JamSync_0.3.38_x64-setup.exe"
     }
   }
 }
