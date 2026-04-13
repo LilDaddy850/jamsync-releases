@@ -1,11 +1,11 @@
 {
-  "version": "0.3.45",
-  "notes": "v0.3.45: Pre-scaled endcard + concat demuxer. No re-encoding, no distortion, no sync loss. Three bundled endcard sizes (1080x1080, 1350, 1920) with proper letterboxing.",
-  "pub_date": "2026-04-13T12:30:00Z",
+  "version": "0.3.46",
+  "notes": "v0.3.46: Peer test fixes. Video persists across Settings nav, unique rolling WAV filenames, record controls in fullscreen, format picker persists.",
+  "pub_date": "2026-04-13T15:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnpBRmwwUFpNWmR2M3NNR3R6blEyajJRQXNrZlJTa3dLV1JWdUF6cVF5cWdMbFhJbnk5cFhPYkF5MFZ5b2V6ZVdDbG1yZ0hMcjJNUCtiZmtqUmN3a2cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MDUzMDAxCWZpbGU6SmFtU3luY18wLjMuNDVfeDY0LXNldHVwLmV4ZQp0K0VBd0phZ3ZNbHBDK00zMXpyY3M1Y1Ruc3pHcVhQcEs3dFRVQkk5Q0o5R0hKTW53QmNFTEMrS3hGQy9JNDhjSTJRS3hpanczaEErbUhuR1RVSWZDUT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.45/JamSync_0.3.45_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qi9VLy94MHR5SkxUaHBPdkw5cHZueHVlaGlhVjA4ZktpYXdjMUJTMFlTbEQ3YVZsV1NpMUpWWXdDY0hhZ1NvVWVLbVV0SG5LL2s2THViaFErT2JpbncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MTIwNjYwCWZpbGU6SmFtU3luY18wLjMuNDZfeDY0LXNldHVwLmV4ZQpCeFN2V2JwOEZ4RUpVcmJ0Z0J3djhkQ1hnaGo4TXNpZjMzRG90ZFZmbmhIUzNsNUtaVFpiZnhjOFJEMmIrSjNpZUJhT1p5ei84S1h1UDhCYVdZeHREUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.46/JamSync_0.3.46_x64-setup.exe"
     }
   }
 }
