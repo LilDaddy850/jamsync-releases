@@ -1,11 +1,11 @@
 {
-  "version": "0.3.51",
-  "notes": "v0.3.51: Auto-recovering video decoder — rebuilds on next keyframe after error instead of staying permanently frozen. Keyframe interval halved (1s) for faster recovery.",
-  "pub_date": "2026-04-13T20:21:00Z",
+  "version": "0.3.52",
+  "notes": "v0.3.52: Rolling WAV temp files now properly cleaned up on disconnect, format change, and after clip mux. Auto-recovering video decoder. Keyframes every 1s for faster recovery.",
+  "pub_date": "2026-04-13T20:35:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjZDdmJuTUxJMElRamR2SlIxY0J2ZEFQdVZMZXN0OTRKNDBOMTBjTGhNYWtFTVdnSnZhUTUwY3hYSlgzd1E1b09Xb3NEK0tFSVBuYnNpSGJneHFEM1FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MTI2MDU2CWZpbGU6SmFtU3luY18wLjMuNTFfeDY0LXNldHVwLmV4ZQo3WDJKNHVYREhzaGJjVG1UZ3BmODVIdWFqT2pMTXIxeGs1Vy9jRmlWWlFNdURUR0QxMWFQWDNSTnNjU2VPaitEWEdvdEV3Nk5Rdk1URk4rekpYcnlEZz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.51/JamSync_0.3.51_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QndOTWtmV1c2cUJKUlpDTTFwdmJkVjR5WDRhbnVqa05rVkcxOUQ2UXV5Z1ZPOWJweHhrVW8rT0JNT0NJcGNnbC9PbFdlbFpNMTdKRE1RVEdmaTMwVHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MTI2ODg3CWZpbGU6SmFtU3luY18wLjMuNTJfeDY0LXNldHVwLmV4ZQpJVWY4WUZNaGcycFFxaUZSWFJweDVQUTh6MTk3OXk2RmJJaCtyY3AzMHJ0ZHAwblpPdUNsLzFqejVhUEUzdHpkL29YSHpFOTFoWTZDQUJhWVhvWi9BQT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.52/JamSync_0.3.52_x64-setup.exe"
     }
   }
 }
