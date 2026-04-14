@@ -1,11 +1,11 @@
 {
-  "version": "0.3.52",
-  "notes": "v0.3.52: Rolling WAV temp files now properly cleaned up on disconnect, format change, and after clip mux. Auto-recovering video decoder. Keyframes every 1s for faster recovery.",
-  "pub_date": "2026-04-13T20:35:00Z",
+  "version": "0.3.53",
+  "notes": "v0.3.53: Fullscreen metronome controls. Keyframe-request over audio channel (faster video recovery from packet loss). Rolling buffer rotates every 2min so saves don't fail at GB-sizes. On-save-failure restart prevents A/V desync on subsequent saves.",
+  "pub_date": "2026-04-14T14:15:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QndOTWtmV1c2cUJKUlpDTTFwdmJkVjR5WDRhbnVqa05rVkcxOUQ2UXV5Z1ZPOWJweHhrVW8rT0JNT0NJcGNnbC9PbFdlbFpNMTdKRE1RVEdmaTMwVHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MTI2ODg3CWZpbGU6SmFtU3luY18wLjMuNTJfeDY0LXNldHVwLmV4ZQpJVWY4WUZNaGcycFFxaUZSWFJweDVQUTh6MTk3OXk2RmJJaCtyY3AzMHJ0ZHAwblpPdUNsLzFqejVhUEUzdHpkL29YSHpFOTFoWTZDQUJhWVhvWi9BQT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.52/JamSync_0.3.52_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjZNWnorby85YVlhQzdROTdtbkZacXFaWERsMy9YY3RYTlpzRHJ3TEJsQmlJL0lnMGFNVjMwUVZDemhZczczYVYxc21UaGVqWUxQK0kvYWVpMTJ5YlFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MTg5MzE1CWZpbGU6SmFtU3luY18wLjMuNTNfeDY0LXNldHVwLmV4ZQpoWnRBZDZxRi96R2tsTmY0bDBieVVsRnRLL3FoNEd1MGNMai9IRVRKL3Ezd1RpTGx1YUFlNzZ1d1JERGNxTFVBUVBmU0ZndDZrVEpKZkNOOFJpNlpBZz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.53/JamSync_0.3.53_x64-setup.exe"
     }
   }
 }
