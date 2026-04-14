@@ -1,11 +1,11 @@
 {
-  "version": "0.3.50",
-  "notes": "v0.3.50: Fixed one-way video — hole-punch now uses peer's actual NAT address (not STUN address) for ACKs and fallback. Video socket keepalive keeps NAT mapping open.",
-  "pub_date": "2026-04-13T20:10:00Z",
+  "version": "0.3.51",
+  "notes": "v0.3.51: Auto-recovering video decoder — rebuilds on next keyframe after error instead of staying permanently frozen. Keyframe interval halved (1s) for faster recovery.",
+  "pub_date": "2026-04-13T20:21:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjNVZTlFVkhzdk5nNlZLZGx2S0c4eUhuSEc1Yk5WU21jaFJwMUFNL2UvN2dkVytCQ2FURE4wQnB6b1RrbGlCNTMvd1g2bFhVNlRXa3JqVElmcjFJbGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MTI1Mzg5CWZpbGU6SmFtU3luY18wLjMuNTBfeDY0LXNldHVwLmV4ZQozTU5zVlIyQStXWkNCZ2dnckZGWlZPQkZtL3d1aGVLOXBPMjlrbHNQbng1cWtrazZhS2tkWEJZYmZtTTMxUHRvWTlJUzdwdnZCSHlJOFNXcFgwMGVCZz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.50/JamSync_0.3.50_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjZDdmJuTUxJMElRamR2SlIxY0J2ZEFQdVZMZXN0OTRKNDBOMTBjTGhNYWtFTVdnSnZhUTUwY3hYSlgzd1E1b09Xb3NEK0tFSVBuYnNpSGJneHFEM1FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MTI2MDU2CWZpbGU6SmFtU3luY18wLjMuNTFfeDY0LXNldHVwLmV4ZQo3WDJKNHVYREhzaGJjVG1UZ3BmODVIdWFqT2pMTXIxeGs1Vy9jRmlWWlFNdURUR0QxMWFQWDNSTnNjU2VPaitEWEdvdEV3Nk5Rdk1URk4rekpYcnlEZz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.51/JamSync_0.3.51_x64-setup.exe"
     }
   }
 }
