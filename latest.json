@@ -1,11 +1,11 @@
 {
-  "version": "0.3.49",
-  "notes": "v0.3.49: NTP-style clock offset correction for metronome sync. Downbeats align across machines regardless of system clock differences.",
-  "pub_date": "2026-04-13T19:54:00Z",
+  "version": "0.3.50",
+  "notes": "v0.3.50: Fixed one-way video — hole-punch now uses peer's actual NAT address (not STUN address) for ACKs and fallback. Video socket keepalive keeps NAT mapping open.",
+  "pub_date": "2026-04-13T20:10:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QngxY01OYllVc0grTU52RldBUVVhUm8vSWZ4WnI1c3pRd3d3bExlRmozZG44OXV6Qm5Cd3FGcDRuREVubFhmbGNXUHJQLys5OVpCdS9IZkQ4SitSN1FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MTI0NDMyCWZpbGU6SmFtU3luY18wLjMuNDlfeDY0LXNldHVwLmV4ZQpmdEI5T1pjU3VIbExRRE4wTEd0ME56VnFoSk9MS3kyZldHRjlMU2V2M1J4bGZqei8xZW90UnFmZ3JBckVMT0kxdmlxTUNSMUpjTlFYb3gzYlBXaXZEdz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.49/JamSync_0.3.49_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjNVZTlFVkhzdk5nNlZLZGx2S0c4eUhuSEc1Yk5WU21jaFJwMUFNL2UvN2dkVytCQ2FURE4wQnB6b1RrbGlCNTMvd1g2bFhVNlRXa3JqVElmcjFJbGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MTI1Mzg5CWZpbGU6SmFtU3luY18wLjMuNTBfeDY0LXNldHVwLmV4ZQozTU5zVlIyQStXWkNCZ2dnckZGWlZPQkZtL3d1aGVLOXBPMjlrbHNQbng1cWtrazZhS2tkWEJZYmZtTTMxUHRvWTlJUzdwdnZCSHlJOFNXcFgwMGVCZz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.50/JamSync_0.3.50_x64-setup.exe"
     }
   }
 }
