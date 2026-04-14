@@ -1,11 +1,11 @@
 {
-  "version": "0.3.53",
-  "notes": "v0.3.53: Fullscreen metronome controls. Keyframe-request over audio channel (faster video recovery from packet loss). Rolling buffer rotates every 2min so saves don't fail at GB-sizes. On-save-failure restart prevents A/V desync on subsequent saves.",
-  "pub_date": "2026-04-14T14:15:00Z",
+  "version": "0.3.54",
+  "notes": "v0.3.54: App-close now cleans up the rolling WAV (no more leftovers from closing the window). Startup sweep removes any stale .jamsync_* temp files from crashes. VideoManager requests a keyframe immediately on start so peer video appears within a second instead of waiting for a scheduled keyframe.",
+  "pub_date": "2026-04-14T14:28:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjZNWnorby85YVlhQzdROTdtbkZacXFaWERsMy9YY3RYTlpzRHJ3TEJsQmlJL0lnMGFNVjMwUVZDemhZczczYVYxc21UaGVqWUxQK0kvYWVpMTJ5YlFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MTg5MzE1CWZpbGU6SmFtU3luY18wLjMuNTNfeDY0LXNldHVwLmV4ZQpoWnRBZDZxRi96R2tsTmY0bDBieVVsRnRLL3FoNEd1MGNMai9IRVRKL3Ezd1RpTGx1YUFlNzZ1d1JERGNxTFVBUVBmU0ZndDZrVEpKZkNOOFJpNlpBZz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.53/JamSync_0.3.53_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qjh3Z3BJMHRodU5tWWlvQldGTWtObnVCU1FWbkErcGRocS9wVmlWMHAxY1hjUUpuVVYrT05vaWs3cE9zT0wrVVkrNktLUS8zbUF5bTJTd3pYVWFoZGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MTkwMDUxCWZpbGU6SmFtU3luY18wLjMuNTRfeDY0LXNldHVwLmV4ZQpSanRwTFhlU0tJcWF3WHVxVVR1MzFOcEZvYjdkbzl4YkYvN3puUXBNR0hhSDdlZzBDbFhNSUE0SW54Uk5wT3N4RVFmR3NyZktNY0lmdm0zWUt5bjVBUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.54/JamSync_0.3.54_x64-setup.exe"
     }
   }
 }
