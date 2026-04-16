@@ -1,11 +1,11 @@
 {
-  "version": "0.3.57",
-  "notes": "v0.3.57: Keyframe startup burst — first 3 seconds of video are ALL keyframes (90 frames). Guarantees peer's decoder starts instantly regardless of who enables video first. Added reassembler diagnostics logging.",
-  "pub_date": "2026-04-16T14:52:00Z",
+  "version": "0.3.58",
+  "notes": "v0.3.58: Visible diagnostic frame counter on peer video (green text bottom-left showing rx/decoded counts). Helps pinpoint where video drops out. Safe decoder rebuild with try/catch.",
+  "pub_date": "2026-04-16T15:05:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjN2OTNMa2lUNnl1cW15NHFncURzT3BEZnN4TGVPRUhiYVIxR28xT2Y4b0pTbkIwUWtZY0NDQkFHQ0FsY1FWdVpRUXJVTjg4T2h5WGtCemQ5eWlqaVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MzYzMDg5CWZpbGU6SmFtU3luY18wLjMuNTdfeDY0LXNldHVwLmV4ZQpWQ3hHTEtUb3FvdEloSzArUWpzbm9Cd0I2OFRTeVFWWnBsQ2N1cG1WQXJ4Rlo5OTU2LzZlbTlSdHA0Vi9PZDcrek1SRUp2TFlFL2UyZUpoQ2pRTTdEQT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.57/JamSync_0.3.57_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjZ2WmZIN29PN2R4N1V4WTk2cnQxMnNCbkJXUzlITVpiNTdRTFpIcW1oTHo4d3Nvb3kzOGZ6ZEVFSXN0NWV4SHpYeVBzMkdiRm5xSXNyb1Iza1FJOEFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MzYzODY4CWZpbGU6SmFtU3luY18wLjMuNThfeDY0LXNldHVwLmV4ZQp6cWdYWk9qUU5XWWpQUmhjSWh0S3BtNk9EdkdKK1V4OWVrZWFRc2kvTFVWejRFVTQrRWZTSHRWb01FU3Z2S1ZFeC96dlgxVHF1S3dFdmFSN05NbmNBUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.58/JamSync_0.3.58_x64-setup.exe"
     }
   }
 }
