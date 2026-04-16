@@ -1,11 +1,11 @@
 {
-  "version": "0.3.55",
-  "notes": "v0.3.55: Video now shares the audio socket (VIDX-prefixed fragments). No separate video socket, STUN, or hole-punch — eliminates the one-way video bug caused by unreliable second-socket NAT traversal. Zero audio latency impact.",
-  "pub_date": "2026-04-16T14:18:00Z",
+  "version": "0.3.56",
+  "notes": "v0.3.56: ROOT CAUSE FIX for one-way video. Periodic keyframes were never being sent — KEYFRAME_INTERVAL was dead code (counter reset but never triggered a keyframe). Now keyframes emit every 30 frames (1s). Both peers should see each other within 1 second of enabling video.",
+  "pub_date": "2026-04-16T14:39:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnoyNDVnSGg3enZKbkErTHlxU1FIZzVzM3FaR05ieDNUNVp5NGpHN1owTy9IeUFFaXRiOEJkbHE1L01sOW51TDhLMkVOMElqNGhqcHRuOFdScC9SdkE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MzYxMDk1CWZpbGU6SmFtU3luY18wLjMuNTVfeDY0LXNldHVwLmV4ZQpReTRVOU80NXJIL1BDcU1BVmhKbXZVME9Ia1lKSDVGcFQ2SGsvSFhqbjlndXRzVFI4WHFheTZvczdTTGJONDNmMVMwU2Z2SVU5WHhIVkl1bmQ4eE9BZz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.55/JamSync_0.3.55_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QitLcEZaUHFocytCRm94MEdXbGFzOEpOdXdlYlFUWDNOVzIxT3oyWWNPVFk5SmxKQkgwQ25yTWZLcFh0cGFtQ3h3dnFBTEszRW9KcSsvUGtZVExFaXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MzYyMzI1CWZpbGU6SmFtU3luY18wLjMuNTZfeDY0LXNldHVwLmV4ZQpjWGZWWlB5bEJGWjhxS2xqeXZvUWw5aW5aV3JiWnlkMTlZZ0ltTm8yWDJNU3ZMdXpMR2hLYkpNcjRvUFBtVzVNc3RUa1UrcXBBa3Nta1FQRkdNbnlCdz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.56/JamSync_0.3.56_x64-setup.exe"
     }
   }
 }
