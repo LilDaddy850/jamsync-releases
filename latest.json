@@ -1,11 +1,11 @@
 {
-  "version": "0.3.59",
-  "notes": "v0.3.59: CRITICAL — all frontend fixes from v0.3.48-0.3.58 now actually ship. Previous builds only rebuilt Rust, leaving the frontend frozen at April 13. Includes: keyframe interval fix, 3s startup burst, decoder auto-recovery, rolling buffer rotation, KEYF requests, fullscreen metronome, diagnostics overlay, temp file cleanup.",
-  "pub_date": "2026-04-16T15:13:00Z",
+  "version": "0.3.60",
+  "notes": "v0.3.60: All frontend fixes properly included. Reduced keyframe startup burst from 90 to 10 frames (prevents bandwidth spike that could delay audio packets). Fixed update signature.",
+  "pub_date": "2026-04-16T15:24:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qi9JZ2xJb3I1NmVIVW1mcVl5aGc1dVdoNGpOM2xQUkFON3AxWWhJNFZiOGZKS0lyRDhmeEtkNnd2blgrN3hKSjRHbHVsZkhxR2tLaENzTUd3VkthNWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MzY0MzgwCWZpbGU6SmFtU3luY18wLjMuNTlfeDY0LXNldHVwLmV4ZQpqT2UwMlJhWXovS1JyOW04NVVLbUNGNEN3MHJLQkExREN2d3Ric0lwbXFRN2dzeHlQNVNoM3pHc2FEaG11S1BFVk5kTEZ6eVFCd3lBUDlOSWR1QkFDdz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.59/JamSync_0.3.59_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjRrbVl5bXRRTWZ1dFY2SVYrbXloZjhkck5oYW44UTdFKzNkNEtDcURlS2tVK1FmbFhrSklrNUdsUGhRVk81dUZOOXFxdkV3SHJEeFNKL3dlVm5sdmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MzY1MDI2CWZpbGU6SmFtU3luY18wLjMuNjBfeDY0LXNldHVwLmV4ZQpHZjlVYVRUWGRaaWtCV25GeGFTNm02dFA0QmFicEYyaS9nK3hXVXFReHhxQXU2ZnF3SFZFWnRNQWpiUnFhZlJuQjVuSGdHVW50TERYdkR1eUEwb0VBZz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.60/JamSync_0.3.60_x64-setup.exe"
     }
   }
 }
