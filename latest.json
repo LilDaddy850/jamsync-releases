@@ -1,11 +1,11 @@
 {
-  "version": "0.3.56",
-  "notes": "v0.3.56: ROOT CAUSE FIX for one-way video. Periodic keyframes were never being sent — KEYFRAME_INTERVAL was dead code (counter reset but never triggered a keyframe). Now keyframes emit every 30 frames (1s). Both peers should see each other within 1 second of enabling video.",
-  "pub_date": "2026-04-16T14:39:00Z",
+  "version": "0.3.57",
+  "notes": "v0.3.57: Keyframe startup burst — first 3 seconds of video are ALL keyframes (90 frames). Guarantees peer's decoder starts instantly regardless of who enables video first. Added reassembler diagnostics logging.",
+  "pub_date": "2026-04-16T14:52:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QitLcEZaUHFocytCRm94MEdXbGFzOEpOdXdlYlFUWDNOVzIxT3oyWWNPVFk5SmxKQkgwQ25yTWZLcFh0cGFtQ3h3dnFBTEszRW9KcSsvUGtZVExFaXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MzYyMzI1CWZpbGU6SmFtU3luY18wLjMuNTZfeDY0LXNldHVwLmV4ZQpjWGZWWlB5bEJGWjhxS2xqeXZvUWw5aW5aV3JiWnlkMTlZZ0ltTm8yWDJNU3ZMdXpMR2hLYkpNcjRvUFBtVzVNc3RUa1UrcXBBa3Nta1FQRkdNbnlCdz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.56/JamSync_0.3.56_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjN2OTNMa2lUNnl1cW15NHFncURzT3BEZnN4TGVPRUhiYVIxR28xT2Y4b0pTbkIwUWtZY0NDQkFHQ0FsY1FWdVpRUXJVTjg4T2h5WGtCemQ5eWlqaVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MzYzMDg5CWZpbGU6SmFtU3luY18wLjMuNTdfeDY0LXNldHVwLmV4ZQpWQ3hHTEtUb3FvdEloSzArUWpzbm9Cd0I2OFRTeVFWWnBsQ2N1cG1WQXJ4Rlo5OTU2LzZlbTlSdHA0Vi9PZDcrek1SRUp2TFlFL2UyZUpoQ2pRTTdEQT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.57/JamSync_0.3.57_x64-setup.exe"
     }
   }
 }
