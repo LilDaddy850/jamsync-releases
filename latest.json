@@ -1,11 +1,11 @@
 {
-  "version": "0.3.54",
-  "notes": "v0.3.54: App-close now cleans up the rolling WAV (no more leftovers from closing the window). Startup sweep removes any stale .jamsync_* temp files from crashes. VideoManager requests a keyframe immediately on start so peer video appears within a second instead of waiting for a scheduled keyframe.",
-  "pub_date": "2026-04-14T14:28:00Z",
+  "version": "0.3.55",
+  "notes": "v0.3.55: Video now shares the audio socket (VIDX-prefixed fragments). No separate video socket, STUN, or hole-punch — eliminates the one-way video bug caused by unreliable second-socket NAT traversal. Zero audio latency impact.",
+  "pub_date": "2026-04-16T14:18:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qjh3Z3BJMHRodU5tWWlvQldGTWtObnVCU1FWbkErcGRocS9wVmlWMHAxY1hjUUpuVVYrT05vaWs3cE9zT0wrVVkrNktLUS8zbUF5bTJTd3pYVWFoZGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MTkwMDUxCWZpbGU6SmFtU3luY18wLjMuNTRfeDY0LXNldHVwLmV4ZQpSanRwTFhlU0tJcWF3WHVxVVR1MzFOcEZvYjdkbzl4YkYvN3puUXBNR0hhSDdlZzBDbFhNSUE0SW54Uk5wT3N4RVFmR3NyZktNY0lmdm0zWUt5bjVBUT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.54/JamSync_0.3.54_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnoyNDVnSGg3enZKbkErTHlxU1FIZzVzM3FaR05ieDNUNVp5NGpHN1owTy9IeUFFaXRiOEJkbHE1L01sOW51TDhLMkVOMElqNGhqcHRuOFdScC9SdkE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MzYxMDk1CWZpbGU6SmFtU3luY18wLjMuNTVfeDY0LXNldHVwLmV4ZQpReTRVOU80NXJIL1BDcU1BVmhKbXZVME9Ia1lKSDVGcFQ2SGsvSFhqbjlndXRzVFI4WHFheTZvczdTTGJONDNmMVMwU2Z2SVU5WHhIVkl1bmQ4eE9BZz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.55/JamSync_0.3.55_x64-setup.exe"
     }
   }
 }
