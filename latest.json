@@ -1,11 +1,11 @@
 {
-  "version": "0.3.63",
-  "notes": "v0.3.63: LATENCY HARDENING — WAV recording now writes to disk on a dedicated thread. Audio callback does a lock-free ring push only. No more BufWriter::flush_buf potentially stalling the audio thread during recording. Audit confirmed this was the last remaining regression risk vs v0.2.x.",
-  "pub_date": "2026-04-23T18:10:00Z",
+  "version": "0.3.64",
+  "notes": "v0.3.64: LATENCY FLOOR — Opus encoder switched to Application::LowDelay (guarantees CELT-only, no SILK, no lookahead). Complexity 5 (2x faster encode). Saves 2-5ms one-way vs previous. Sub-20ms RTT achievable on LAN.",
+  "pub_date": "2026-04-23T19:46:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjFpeXR5cSt5eGhJczlDQWdSeHRITzJEL29PbkNIQ1VrVVRqTTlFQkRYUmRBcHlpYkptaTg5M3hobTY1M1dmWStSakliRGRNRU9PNHhrNklCb3hsYndBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2OTk1ODExCWZpbGU6SmFtU3luY18wLjMuNjNfeDY0LXNldHVwLmV4ZQoyVnU5Rm9MTkNSYmpCZEpxbjM5T1R4d2luSjUrc1pLMXdHdERISlR4SE1Xd3JRUjVPZlA2RUt2OXd4dE11ME5FOEZYakVhS0ZVYlRZTmJJT1BOalRBQT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.63/JamSync_0.3.63_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjQ5OVZ1R0g3MGpVUjV1UjJtZmx0WHN1Wjg3TGhML0w5TWRiOWo3dXZCb2s0QXFIM2UwYUQ3QUZwdEQ1aGF5TmcrRmxBRnc3ejBIRUJCKzhxaU80MFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MDAxNTcwCWZpbGU6SmFtU3luY18wLjMuNjRfeDY0LXNldHVwLmV4ZQpnRDVUb2k5NTNTTFhQeUVnek5yVTd2Q2l0b01mVzQ4RGUxUnhreVNRMzBzWGpXVGlKcWN0S25ZdVVXVHloT21rZ21sQ3B2cXFEcmcrZ0lsWnRuQlJBdz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.64/JamSync_0.3.64_x64-setup.exe"
     }
   }
 }
