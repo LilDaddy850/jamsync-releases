@@ -1,11 +1,11 @@
 {
-  "version": "0.3.62",
-  "notes": "v0.3.62: LATENCY FIX — playback ring watchdog prevents buffer from accumulating delay over time. Video reassembly moved to its own thread so audio recv is never stalled by keyframe bursts. Net-send/net-recv run at time-critical priority. Audio latency stays tight regardless of video activity.",
-  "pub_date": "2026-04-23T17:54:00Z",
+  "version": "0.3.63",
+  "notes": "v0.3.63: LATENCY HARDENING — WAV recording now writes to disk on a dedicated thread. Audio callback does a lock-free ring push only. No more BufWriter::flush_buf potentially stalling the audio thread during recording. Audit confirmed this was the last remaining regression risk vs v0.2.x.",
+  "pub_date": "2026-04-23T18:10:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjJzSE05WVFkdzhuMkxVUWltL2g4ZEwyQzF1cXZQSkJ6dXE3Tnd2VS9CVCtrUVZvU0dtY1NUcUhnSVo4aTlpZDdxMW9nRmdMMndQdDN4UzNPQkloMGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2OTk0ODYzCWZpbGU6SmFtU3luY18wLjMuNjJfeDY0LXNldHVwLmV4ZQpIbnBVNFRjcVJmSnhmbmh1QVFvVUQvL0hIOUtqOUYwTDRJU0tJUVR1TmNZZ0E5YXpWOUNHSGJONE9GMmdKanZ6dE12emhlSVJ1WnNXbm50WjQ1cXhEdz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.62/JamSync_0.3.62_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjFpeXR5cSt5eGhJczlDQWdSeHRITzJEL29PbkNIQ1VrVVRqTTlFQkRYUmRBcHlpYkptaTg5M3hobTY1M1dmWStSakliRGRNRU9PNHhrNklCb3hsYndBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2OTk1ODExCWZpbGU6SmFtU3luY18wLjMuNjNfeDY0LXNldHVwLmV4ZQoyVnU5Rm9MTkNSYmpCZEpxbjM5T1R4d2luSjUrc1pLMXdHdERISlR4SE1Xd3JRUjVPZlA2RUt2OXd4dE11ME5FOEZYakVhS0ZVYlRZTmJJT1BOalRBQT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.63/JamSync_0.3.63_x64-setup.exe"
     }
   }
 }
