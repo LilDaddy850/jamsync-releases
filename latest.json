@@ -1,11 +1,11 @@
 {
-  "version": "0.3.61",
-  "notes": "v0.3.61: Fix frozen peer in rolling/record clips — compositor now follows canvas ref across fullscreen toggles instead of using stale captured element.",
-  "pub_date": "2026-04-16T15:42:00Z",
+  "version": "0.3.62",
+  "notes": "v0.3.62: LATENCY FIX — playback ring watchdog prevents buffer from accumulating delay over time. Video reassembly moved to its own thread so audio recv is never stalled by keyframe bursts. Net-send/net-recv run at time-critical priority. Audio latency stays tight regardless of video activity.",
+  "pub_date": "2026-04-23T17:54:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qi9MV1lXYTl6V2dZRXhOL1V1VjViSitMQ3g5RGVnNFNPTnpVN1FicERCVjFYUUNkZzVLak9rbFg2UHZKbGtTNy93SzJxcmFKbmRxNHJWU1FQakVvd3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2MzY2MTA0CWZpbGU6SmFtU3luY18wLjMuNjFfeDY0LXNldHVwLmV4ZQpXRnIvd2w1S3NTSDNVMUN6dE1vby9XUmx0MnYzTXVtODl3K3JtUjh5SU1JYjFYTVhpMkJ1S2Q5TTN1T05Wcjgvclp5Vk1ORUhhSTdoUHpMa1h4QVpEZz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.61/JamSync_0.3.61_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjJzSE05WVFkdzhuMkxVUWltL2g4ZEwyQzF1cXZQSkJ6dXE3Tnd2VS9CVCtrUVZvU0dtY1NUcUhnSVo4aTlpZDdxMW9nRmdMMndQdDN4UzNPQkloMGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc2OTk0ODYzCWZpbGU6SmFtU3luY18wLjMuNjJfeDY0LXNldHVwLmV4ZQpIbnBVNFRjcVJmSnhmbmh1QVFvVUQvL0hIOUtqOUYwTDRJU0tJUVR1TmNZZ0E5YXpWOUNHSGJONE9GMmdKanZ6dE12emhlSVJ1WnNXbm50WjQ1cXhEdz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.62/JamSync_0.3.62_x64-setup.exe"
     }
   }
 }
