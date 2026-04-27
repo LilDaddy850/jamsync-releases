@@ -1,11 +1,11 @@
 {
-  "version": "0.3.64",
-  "notes": "v0.3.64: LATENCY FLOOR — Opus encoder switched to Application::LowDelay (guarantees CELT-only, no SILK, no lookahead). Complexity 5 (2x faster encode). Saves 2-5ms one-way vs previous. Sub-20ms RTT achievable on LAN.",
-  "pub_date": "2026-04-23T19:46:00Z",
+  "version": "0.3.65",
+  "notes": "v0.3.65: Final latency pass. Watchdog target 5ms (was 10ms) — saves 5ms one-way / 10ms RTT. PLC capped to ring headroom. Pre-parsed peer address. Removed SILK-only FEC settings that LowDelay silently ignored. Realistic Opus RTT now ~22-26ms LAN; RawPCM ~15-18ms.",
+  "pub_date": "2026-04-26T08:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjQ5OVZ1R0g3MGpVUjV1UjJtZmx0WHN1Wjg3TGhML0w5TWRiOWo3dXZCb2s0QXFIM2UwYUQ3QUZwdEQ1aGF5TmcrRmxBRnc3ejBIRUJCKzhxaU80MFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MDAxNTcwCWZpbGU6SmFtU3luY18wLjMuNjRfeDY0LXNldHVwLmV4ZQpnRDVUb2k5NTNTTFhQeUVnek5yVTd2Q2l0b01mVzQ4RGUxUnhreVNRMzBzWGpXVGlKcWN0S25ZdVVXVHloT21rZ21sQ3B2cXFEcmcrZ0lsWnRuQlJBdz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.64/JamSync_0.3.64_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjdzRTJiWExBQnUySDQ5TjU2TW8yUUNYVXhWMkwybVVJVldHY3hwczV3aG9oaVl0Nm5udktyR1dLaXRnV1VRdStyYjdadTlvMUwxY3pndFlaWXZGTVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MjU5OTc4CWZpbGU6SmFtU3luY18wLjMuNjVfeDY0LXNldHVwLmV4ZQpYQ0Q5RHM5WjArQklVOWwyQmR4MDFlTWVVc2Q5eUpYR0hJU2FORUlncHZoNC8ycU9GVkFLTWR6U0FETTY5d1R0R0Y3RmpOQ2Y1QklvMkgvbVgxRHdBQT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.65/JamSync_0.3.65_x64-setup.exe"
     }
   }
 }
