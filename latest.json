@@ -1,11 +1,11 @@
 {
-  "version": "0.3.65",
-  "notes": "v0.3.65: Final latency pass. Watchdog target 5ms (was 10ms) — saves 5ms one-way / 10ms RTT. PLC capped to ring headroom. Pre-parsed peer address. Removed SILK-only FEC settings that LowDelay silently ignored. Realistic Opus RTT now ~22-26ms LAN; RawPCM ~15-18ms.",
-  "pub_date": "2026-04-26T08:00:00Z",
+  "version": "0.3.66",
+  "notes": "v0.3.66: STATIC FIX. v0.3.65's aggressive 5ms watchdog target + PLC ring fills were creating audible clicks every time video keyframes burst on the shared socket. Progressive watchdog now drops max 8 samples per callback (167μs, inaudible). Target back to 10ms for headroom. PLC disabled (created ring spikes for music recovery — better to let the existing 0.95 fade smooth brief gaps).",
+  "pub_date": "2026-04-27T04:53:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjdzRTJiWExBQnUySDQ5TjU2TW8yUUNYVXhWMkwybVVJVldHY3hwczV3aG9oaVl0Nm5udktyR1dLaXRnV1VRdStyYjdadTlvMUwxY3pndFlaWXZGTVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MjU5OTc4CWZpbGU6SmFtU3luY18wLjMuNjVfeDY0LXNldHVwLmV4ZQpYQ0Q5RHM5WjArQklVOWwyQmR4MDFlTWVVc2Q5eUpYR0hJU2FORUlncHZoNC8ycU9GVkFLTWR6U0FETTY5d1R0R0Y3RmpOQ2Y1QklvMkgvbVgxRHdBQT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.65/JamSync_0.3.65_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjFldUcwcVRnWmYvaldjbkl5Y2NGaHBFUFYrUUpYai8xV0JYNjA4WXA1UDVGK1E1SUhsY0tuY1dDV2tzNUN1a0h1T1piNWZoRUxWMHNXVEdiMnR0SUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MzM1MTI1CWZpbGU6SmFtU3luY18wLjMuNjZfeDY0LXNldHVwLmV4ZQo4clNxMURYMThKTDN5b05wU1Z1a0ZVNnVLRVp5UUFEQ1BkTzVaZkR6NzczOXIwcUhaUXdTMXFPUVFnZ0M2cjE0a0VHWk1vc3Vibkx5WDVXZkF0c2VCUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.66/JamSync_0.3.66_x64-setup.exe"
     }
   }
 }
