@@ -1,11 +1,11 @@
 {
-  "version": "0.3.68",
-  "notes": "v0.3.68: Metronome hardening — EMA-smoothed clock offset (filters PING/PONG noise), re-snapshot during convergence so first-PONG-race is handled, stable from ~10s onward. The metronome tick time is now rock-steady regardless of network jitter.",
-  "pub_date": "2026-04-27T05:35:00Z",
+  "version": "0.3.69",
+  "notes": "v0.3.69: STATIC FIX. Smooth gap-fill on packet loss in BOTH Raw PCM and Opus paths — hold last sample for 1.3ms (covers single packet drops cleanly), then slow fade, then 32-sample crossfade on recovery. Eliminates click-on-resume that sounded like static. Plus Opus PLC re-enabled for decoder state coherence. Plus MTRO retransmission every ~6s while metronome enabled (UDP loss tolerance for sync).",
+  "pub_date": "2026-04-29T05:55:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjhzWGdEODJmaXdBVUdkNFFGRHVROUV0cGJzb1lxVmV4eWE2RVM1L3N5emJ5U1o4SkZSYVdqem9qN0xUR0kxZ25ZMmxtSjNDNGJOTThPNG5lRW5QZXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MzM3NjI5CWZpbGU6SmFtU3luY18wLjMuNjhfeDY0LXNldHVwLmV4ZQpKTDlDN0hJWm1wZzNoNEZPQzZhakNLWHpDeXBqcVc5d0huRG1Zb0hScDR0R0NLSGJyMEdORnN3bCtrd09sUnB3aXFiSGxqUmhxWkVJM0xnRWtOM1BCUT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.68/JamSync_0.3.68_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnhUVk5SVkNsa3JRcVZERENIaENjdmd5bVJZc2hTbWt1N01tZ0VuOUcvbHUyMXd2eGNZQThxaFdIejl2L3lVTUluemFMYVlHbkFyaDh5K0MyTHliTmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3NTEzMjkyCWZpbGU6SmFtU3luY18wLjMuNjlfeDY0LXNldHVwLmV4ZQpDR2VoeGNyTDcyV211c2VMNjRLaE13RFpZS1FIRGthRkRFTlJraURWSGNPNG0xaXVVUU9rT0kyWmh6enJSa3k0TTVUcTZvQnJMUFM5RG96Y3Q2VWtBdz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.69/JamSync_0.3.69_x64-setup.exe"
     }
   }
 }
