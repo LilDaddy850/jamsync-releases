@@ -1,11 +1,11 @@
 {
-  "version": "0.3.69",
-  "notes": "v0.3.69: STATIC FIX. Smooth gap-fill on packet loss in BOTH Raw PCM and Opus paths — hold last sample for 1.3ms (covers single packet drops cleanly), then slow fade, then 32-sample crossfade on recovery. Eliminates click-on-resume that sounded like static. Plus Opus PLC re-enabled for decoder state coherence. Plus MTRO retransmission every ~6s while metronome enabled (UDP loss tolerance for sync).",
-  "pub_date": "2026-04-29T05:55:00Z",
+  "version": "0.3.70",
+  "notes": "v0.3.70: Metronome sound is now synced between peers (MSND control packet). Different click sounds have different transient attack times — perceived beat moment differs by sound, so when peers used different sounds it felt off-sync even though tick times matched. Plus adaptive gap-fill recovery ramp scales with underflow depth for smoother recovery from longer gaps.",
+  "pub_date": "2026-04-29T06:35:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnhUVk5SVkNsa3JRcVZERENIaENjdmd5bVJZc2hTbWt1N01tZ0VuOUcvbHUyMXd2eGNZQThxaFdIejl2L3lVTUluemFMYVlHbkFyaDh5K0MyTHliTmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3NTEzMjkyCWZpbGU6SmFtU3luY18wLjMuNjlfeDY0LXNldHVwLmV4ZQpDR2VoeGNyTDcyV211c2VMNjRLaE13RFpZS1FIRGthRkRFTlJraURWSGNPNG0xaXVVUU9rT0kyWmh6enJSa3k0TTVUcTZvQnJMUFM5RG96Y3Q2VWtBdz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.69/JamSync_0.3.69_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjRmb3BiVDhoM0sxUC9iZ3ZWNGM2RnVuYlliYjNNM0xKSWJNSFBlRGlsK0lLZCtyVTAxWXN0czJkaGx2Zzc1L2dzMnJlelc3N0wxc05zRXFrKys3UHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3NTE1NzA3CWZpbGU6SmFtU3luY18wLjMuNzBfeDY0LXNldHVwLmV4ZQpQM1J6QXRsT2YvbkdQM1NGbERTdVBYYmJYU3Q2QU5HdTVuY3ZJSUlucTZLOHVQRUsvUkp5M1BGRkloTm5RdFcySlRVV2NHWlA1V3N6RDhCQmEzdFZBUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.70/JamSync_0.3.70_x64-setup.exe"
     }
   }
 }
