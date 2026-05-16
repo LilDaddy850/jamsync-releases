@@ -1,11 +1,11 @@
 {
-  "version": "0.3.73",
-  "notes": "v0.3.73: ASIO enumeration fix. Preview→connect transition was firing before the ASIO driver fully released the device, so connect saw 'found 0 devices'. stop_preview now waits 250ms for driver settling, AND start_session retries ASIO enumeration up to 5x with 250ms delays. Error message clarifies the WASAPI fallback if all retries still fail.",
-  "pub_date": "2026-05-16T18:40:00Z",
+  "version": "0.3.74",
+  "notes": "v0.3.74: Auto-fallback to WASAPI when ASIO enumeration returns 0 devices. Root cause is in cpal-asio's Stream::drop (only removes callbacks, doesn't unload the driver) so after preview, Focusrite stays loaded in cpal's global state and the next enumeration hits 'driver already exists' → 0 devices. No retry duration fixes that. Now JamSync transparently switches to WASAPI default in/out so the session connects regardless. Underlying ASIO bug fixed properly later in cpal-fork.",
+  "pub_date": "2026-05-16T18:53:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qnp1Rk5acmJMNjR6MkV1aFplaTVyVFdaOU5oWmRMK0xKM1JoTCszeEJOeVFodVZWN1cyQk8wTWpyRWVuYmI1UWdDeTRGYzIyNnYvQ1lOVUxDV3puYXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4OTczNjAyCWZpbGU6SmFtU3luY18wLjMuNzNfeDY0LXNldHVwLmV4ZQpwNUtNN2pYejVGK1Nra3B5dWNwTDN4T3pkU1IzU0pNYldaL0VCUFFFcVR5YjNQQlE0UkEvYXVuTTV3NGkxQ2h5RFRyVkZIajhQcHJodllJMDQ0TktEdz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.73/JamSync_0.3.73_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qi9qTjcxNEZnLzB1cGw4R2RKdE5yZVYyZGl5SGhhTmNuQWp6T09YVEJyM2tZZTVXRW9idE0rUjl0eE5sOGlybHpFRFNrS2QxeWpJdWw4dkVPMUI5M2cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4OTc0NDE2CWZpbGU6SmFtU3luY18wLjMuNzRfeDY0LXNldHVwLmV4ZQpDcitBSEZaQ0VMWklKMWJrbnJ1Q2Y1alVmRkdlamtvbkdaZ3pZNjh1WXEvTDM0b3VmMmlwdnFWczVEWTBXSmxMMGhPMTBCWVdTK2dua0F6R1VQZjJCQT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.74/JamSync_0.3.74_x64-setup.exe"
     }
   }
 }
