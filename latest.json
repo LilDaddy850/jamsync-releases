@@ -1,11 +1,11 @@
 {
-  "version": "0.3.71",
-  "notes": "v0.3.71: SAME-LAN FIX. Peers on the same Wi-Fi/router now connect via LAN IP instead of the broken 127.0.0.1 short-circuit (which routed audio into the void on different-machine sessions sharing a public IP). Discovers LAN address via UDP routing trick, shares via signaling, uses it when both peers have same public IP.",
-  "pub_date": "2026-05-16T18:21:00Z",
+  "version": "0.3.72",
+  "notes": "v0.3.72: Hotfix — v0.3.71's LAN discovery accidentally left the audio socket connected to 1.1.1.1 (UDP disconnect doesn't work on Windows without AF_UNSPEC, which Rust doesn't expose). That broke STUN. Now uses a separate temporary socket for LAN discovery — never touches the audio socket. STUN works AND same-LAN connect works.",
+  "pub_date": "2026-05-16T18:29:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjdaM3BkZ1pOdkpWUzI2NmVtWEZDUmxIRU0zUWRudTAwK2EydnRCQ0puVnNJVWxiRWpuSllTbGtKcWpKSUJnTFlEb3UyYmcxamcwR0h0M1FGSGRvV3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4OTcyNDc3CWZpbGU6SmFtU3luY18wLjMuNzFfeDY0LXNldHVwLmV4ZQplRlgyY0VrRnBBTFMyMkpuNTIxY1dicXlMQldrR0c4SjhJSXFqZ0NPVXZZSHRkTytJcjRDb1pobTIwRDJEeUFwQkFqeFBpeFZJUGdOeHZZQjJrQ2VDZz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.71/JamSync_0.3.71_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjVEOFk1M0xDTGNjVnBIS1V4TmNJYmNzVTRMUFptQk54M0xMMlduNFE1dTBOTnJROXJNeGxtVzFDRzhWUURBRWhDNUM3RklVckFnOURaSi96QUxGT0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4OTcyOTc5CWZpbGU6SmFtU3luY18wLjMuNzJfeDY0LXNldHVwLmV4ZQorWDhVYTNmMnU4YkF5NXB1aWg3cUIwUGY3VHQxRWpvKzZQS2d6cGxWVGxmMmtUZC9iYzExclJzc21xTnlvR3FPZzlFcnErVFc4b1VsUkFCY00waVhCdz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.72/JamSync_0.3.72_x64-setup.exe"
     }
   }
 }
