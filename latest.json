@@ -1,11 +1,11 @@
 {
-  "version": "0.3.72",
-  "notes": "v0.3.72: Hotfix — v0.3.71's LAN discovery accidentally left the audio socket connected to 1.1.1.1 (UDP disconnect doesn't work on Windows without AF_UNSPEC, which Rust doesn't expose). That broke STUN. Now uses a separate temporary socket for LAN discovery — never touches the audio socket. STUN works AND same-LAN connect works.",
-  "pub_date": "2026-05-16T18:29:00Z",
+  "version": "0.3.73",
+  "notes": "v0.3.73: ASIO enumeration fix. Preview→connect transition was firing before the ASIO driver fully released the device, so connect saw 'found 0 devices'. stop_preview now waits 250ms for driver settling, AND start_session retries ASIO enumeration up to 5x with 250ms delays. Error message clarifies the WASAPI fallback if all retries still fail.",
+  "pub_date": "2026-05-16T18:40:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjVEOFk1M0xDTGNjVnBIS1V4TmNJYmNzVTRMUFptQk54M0xMMlduNFE1dTBOTnJROXJNeGxtVzFDRzhWUURBRWhDNUM3RklVckFnOURaSi96QUxGT0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4OTcyOTc5CWZpbGU6SmFtU3luY18wLjMuNzJfeDY0LXNldHVwLmV4ZQorWDhVYTNmMnU4YkF5NXB1aWg3cUIwUGY3VHQxRWpvKzZQS2d6cGxWVGxmMmtUZC9iYzExclJzc21xTnlvR3FPZzlFcnErVFc4b1VsUkFCY00waVhCdz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.72/JamSync_0.3.72_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qnp1Rk5acmJMNjR6MkV1aFplaTVyVFdaOU5oWmRMK0xKM1JoTCszeEJOeVFodVZWN1cyQk8wTWpyRWVuYmI1UWdDeTRGYzIyNnYvQ1lOVUxDV3puYXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4OTczNjAyCWZpbGU6SmFtU3luY18wLjMuNzNfeDY0LXNldHVwLmV4ZQpwNUtNN2pYejVGK1Nra3B5dWNwTDN4T3pkU1IzU0pNYldaL0VCUFFFcVR5YjNQQlE0UkEvYXVuTTV3NGkxQ2h5RFRyVkZIajhQcHJodllJMDQ0TktEdz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.73/JamSync_0.3.73_x64-setup.exe"
     }
   }
 }
