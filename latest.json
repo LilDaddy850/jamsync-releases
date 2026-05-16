@@ -1,11 +1,11 @@
 {
-  "version": "0.3.70",
-  "notes": "v0.3.70: Metronome sound is now synced between peers (MSND control packet). Different click sounds have different transient attack times — perceived beat moment differs by sound, so when peers used different sounds it felt off-sync even though tick times matched. Plus adaptive gap-fill recovery ramp scales with underflow depth for smoother recovery from longer gaps.",
-  "pub_date": "2026-04-29T06:35:00Z",
+  "version": "0.3.71",
+  "notes": "v0.3.71: SAME-LAN FIX. Peers on the same Wi-Fi/router now connect via LAN IP instead of the broken 127.0.0.1 short-circuit (which routed audio into the void on different-machine sessions sharing a public IP). Discovers LAN address via UDP routing trick, shares via signaling, uses it when both peers have same public IP.",
+  "pub_date": "2026-05-16T18:21:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjRmb3BiVDhoM0sxUC9iZ3ZWNGM2RnVuYlliYjNNM0xKSWJNSFBlRGlsK0lLZCtyVTAxWXN0czJkaGx2Zzc1L2dzMnJlelc3N0wxc05zRXFrKys3UHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3NTE1NzA3CWZpbGU6SmFtU3luY18wLjMuNzBfeDY0LXNldHVwLmV4ZQpQM1J6QXRsT2YvbkdQM1NGbERTdVBYYmJYU3Q2QU5HdTVuY3ZJSUlucTZLOHVQRUsvUkp5M1BGRkloTm5RdFcySlRVV2NHWlA1V3N6RDhCQmEzdFZBUT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.70/JamSync_0.3.70_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjdaM3BkZ1pOdkpWUzI2NmVtWEZDUmxIRU0zUWRudTAwK2EydnRCQ0puVnNJVWxiRWpuSllTbGtKcWpKSUJnTFlEb3UyYmcxamcwR0h0M1FGSGRvV3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4OTcyNDc3CWZpbGU6SmFtU3luY18wLjMuNzFfeDY0LXNldHVwLmV4ZQplRlgyY0VrRnBBTFMyMkpuNTIxY1dicXlMQldrR0c4SjhJSXFqZ0NPVXZZSHRkTytJcjRDb1pobTIwRDJEeUFwQkFqeFBpeFZJUGdOeHZZQjJrQ2VDZz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.71/JamSync_0.3.71_x64-setup.exe"
     }
   }
 }
