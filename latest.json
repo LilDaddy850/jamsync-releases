@@ -1,11 +1,11 @@
 {
-  "version": "0.3.75",
-  "notes": "v0.3.75: SAME-WIFI CONNECTION FIX (verified root cause). Same-network path now probes LAN then NAT-hairpin with a real handshake before committing, and falls back to relay if both are blocked (router AP/client isolation or firewall). Previously same-IP declared 'Connected' over a dead link with no fallback. Also: ASIO→WASAPI auto-fallback now uses SHARED mode, fixing 'connected but no audio' on the laptop.",
-  "pub_date": "2026-05-31T12:35:00Z",
+  "version": "0.3.76",
+  "notes": "v0.3.76: ASIO reliability fix. Stops the Focusrite USB ASIO from silently falling back to WASAPI shared mode (high latency + static) on connect. Removed the redundant pre-flight ASIO enumeration that was thrashing the USB driver; added settle time + progressive retry so slower laptop USB can re-init in time. Fast machines unaffected. ASIO fallback now clearly labeled in diagnostics. 48kHz warning restored as an inline Setup-screen banner.",
+  "pub_date": "2026-05-31T14:20:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjZHZnJGWTE5Wm14bXFQZDl5Nmh1bXIzbVc4M0ZkN1pDUGl1UEw1MlhhZG1HU29XUGIxbkxvbVFodTdVekxlR0tHTjBUWk9xWk04UTlLS3plN1RwY3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjYzNzIwCWZpbGU6SmFtU3luY18wLjMuNzVfeDY0LXNldHVwLmV4ZQpJNDM3RGhUV1NwbWlUMnpMcWp6YUxmZGVGMkVJWmZZV1Jidy9ybVU4eXhML0lzUHJWdmdDbWhXenF0aXIyWm5SWVRDK1ROdVg3T1o2OTE4aUdWU1BDUT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.75/JamSync_0.3.75_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjFzV1QwMUt3UzFSSDBQWGIxd2JDSU9jYkJiVDhId01relVHK0VscDJZaUpUVDR5VGhvRkt2UnE0NU1mQklEVkRIaWdiRkQ3S1lCSWo5STBNTXFYNmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjcwNzUwCWZpbGU6SmFtU3luY18wLjMuNzZfeDY0LXNldHVwLmV4ZQpKbnJKV3dybFZhVUJDNVBaK0JWR2NENU8yOXNXMDZ0NGRxVjZhYzNVSi9ZdkNBaWZ4YWhEWTZ4Y2xnS0VEdmtwTlh6bm56elgva29YRkcwWmtQQ3pDdz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.76/JamSync_0.3.76_x64-setup.exe"
     }
   }
 }
