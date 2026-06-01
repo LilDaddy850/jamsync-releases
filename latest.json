@@ -1,11 +1,11 @@
 {
-  "version": "0.3.76",
-  "notes": "v0.3.76: ASIO reliability fix. Stops the Focusrite USB ASIO from silently falling back to WASAPI shared mode (high latency + static) on connect. Removed the redundant pre-flight ASIO enumeration that was thrashing the USB driver; added settle time + progressive retry so slower laptop USB can re-init in time. Fast machines unaffected. ASIO fallback now clearly labeled in diagnostics. 48kHz warning restored as an inline Setup-screen banner.",
-  "pub_date": "2026-05-31T14:20:00Z",
+  "version": "0.3.77",
+  "notes": "v0.3.77: VHS/wow-flutter audio fix. The latency watchdog was continuously decimating ~1.5% of playback samples (5ms target + .max(1) floor, no hysteresis) — warping pitch like a warped tape. Replaced with a hysteresis band that only drains on genuine runaway latency (>30ms), in whole frames, down to 15ms. In normal operation it never fires → v0.2.x-clean pitch restored, latency still bounded. Confirmed via multi-agent root-cause audit.",
+  "pub_date": "2026-05-31T14:55:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjFzV1QwMUt3UzFSSDBQWGIxd2JDSU9jYkJiVDhId01relVHK0VscDJZaUpUVDR5VGhvRkt2UnE0NU1mQklEVkRIaWdiRkQ3S1lCSWo5STBNTXFYNmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjcwNzUwCWZpbGU6SmFtU3luY18wLjMuNzZfeDY0LXNldHVwLmV4ZQpKbnJKV3dybFZhVUJDNVBaK0JWR2NENU8yOXNXMDZ0NGRxVjZhYzNVSi9ZdkNBaWZ4YWhEWTZ4Y2xnS0VEdmtwTlh6bm56elgva29YRkcwWmtQQ3pDdz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.76/JamSync_0.3.76_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjVYZnJhM0E1cithWXpMRE9GNnFvM1ZlR1RZNDJmZkNmcDkzUjlHZDZjOXd5NDA0dDZaelB4T1ZxODJNVFlybmlXWlhBdXJESnZzeEl1QzF6cEtKb0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjcyODQwCWZpbGU6SmFtU3luY18wLjMuNzdfeDY0LXNldHVwLmV4ZQpEbHVONFFrZkZMWjlsRXlDOG5UMzJvYXA4R056TWhzbkt3TmVWNUFTZWlrc3pJVWFMYnoyZ1YwMU5sSnB3dTJVZHpkVlpBZFM1YVlMU2pyYkxxL2NBZz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.77/JamSync_0.3.77_x64-setup.exe"
     }
   }
 }
