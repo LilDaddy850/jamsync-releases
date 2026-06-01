@@ -1,11 +1,11 @@
 {
-  "version": "0.3.80",
-  "notes": "v0.3.80: Tuner redesign + working pitch detection. Opaque panel matching the app's dark/gold design (was transparent). Fixed the AudioContext-suspended bug that made it read silence. Live INPUT level meter, SVG arc-gauge needle (green in tune), input device picker.",
-  "pub_date": "2026-05-31T16:08:00Z",
+  "version": "0.3.81",
+  "notes": "v0.3.81: Video latency fix. Video frames crossed the IPC as JSON number arrays (huge + slow at 30fps) causing accumulating lag. Now base64 (~3.5x smaller, no array parse) + real-time backpressure that drops camera frames before encode when backed up. Live video should track real-time.",
+  "pub_date": "2026-05-31T16:25:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjEwRm5YTllBVWhuOCt1WjlTOUhZK0NtNnF3YXVBbEhSV2pvRmtkOE1XRUdyZnBYSHZjU1ltR3c1ckt1emRLRm1uUEpvekdRQ09QQmZWVVBYUno4bFFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjc1NjY3CWZpbGU6SmFtU3luY18wLjMuODBfeDY0LXNldHVwLmV4ZQpvcnRtd2ZFVzZSMzF0VE0xYmZ0bjhpSkRvQ21qcklmYUptRHprZWc5WnlJVVcyeGdiejlBcnp1V0dneGpQN2xqMnl5VDRhM01rMHo0TURiOVBZZElCZz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.80/JamSync_0.3.80_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qnc2THJlTHNMRWNPcjRLKzJFNGd2VXBJN2lxdlBLVmpITHlxbFlFaGpib0hCc056VlhqL08xNVA2cHNNZ3ZuTGRnZzFsOEcrWHhzZHRvaWJpYmd3WUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjc2NjE4CWZpbGU6SmFtU3luY18wLjMuODFfeDY0LXNldHVwLmV4ZQpzLzZwZnk4MEZjU29xb2cwNDV5S1JRRU12dGY4N2pOZUthdEp0ZjRtQ2l3UVJhWWpWSlFISS9naDNrOXJteVVQNlNJY1oxZEVqejl1N1ZNdHhhOVREUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.81/JamSync_0.3.81_x64-setup.exe"
     }
   }
 }
