@@ -1,11 +1,11 @@
 {
-  "version": "0.3.78",
-  "notes": "v0.3.78: Single-channel input now has an Input volume fader (was hidden in single-channel mode). Overflow stats only flag red when actively climbing, so the harmless one-time startup overflow no longer shows a scary red number.",
-  "pub_date": "2026-05-31T15:30:00Z",
+  "version": "0.3.79",
+  "notes": "v0.3.79: Instrument tuner. Tuning-fork button on the home screen. Guitar/bass/ukulele presets (snap to open strings) + chromatic. Live pitch + cents needle, green at in-tune (±5 cents). Input device picker.",
+  "pub_date": "2026-05-31T15:45:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnhuR0FVeFp6clJsNlRtYzI1QzN6ektCSU92bFE2SUc3L3JYOTl2TGZLSjRCRWtHendCOVV2Wklwb25kaXJhayt2MjViemdiaXQ3OEhIa3lCbWVxRUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjc0NDkxCWZpbGU6SmFtU3luY18wLjMuNzhfeDY0LXNldHVwLmV4ZQpuYkk0T1JGMVVSNllsRnVSdVlsOWV4SzhnU2F0aEV0NUV2ZkJwd3Y0TWtWWXNVMTljbHFaQ1Q0N3VPK3RwblF4UWd3UHJKM1BDV0xYbVJNNGFsV2VCZz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.78/JamSync_0.3.78_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjVDeHV1NlNBcXRIZFVZZ2VmL1NMbnNaUEdkRXd3ZmV6ZmxLa3hkOXVDOWs4akJCVmx4TUtRUVE3a0g3SDBXaDNFbU5rUTE2VWlnZERMaDhFYTZPZ2d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjc0OTY0CWZpbGU6SmFtU3luY18wLjMuNzlfeDY0LXNldHVwLmV4ZQpxOUZYL3dBM3QzeHpzVnlhbnNjL00rRW9odTlXdVFLUTlacWM1a1hvRXhXcHkvajdVbnhZb1F2aWIyUTk5VHFvUHdINHFzWGROcWtKLzhiY29oTklBQT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.79/JamSync_0.3.79_x64-setup.exe"
     }
   }
 }
