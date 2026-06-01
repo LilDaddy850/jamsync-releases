@@ -1,11 +1,11 @@
 {
-  "version": "0.3.81",
-  "notes": "v0.3.81: Video latency fix. Video frames crossed the IPC as JSON number arrays (huge + slow at 30fps) causing accumulating lag. Now base64 (~3.5x smaller, no array parse) + real-time backpressure that drops camera frames before encode when backed up. Live video should track real-time.",
-  "pub_date": "2026-05-31T16:25:00Z",
+  "version": "0.3.82",
+  "notes": "v0.3.82: One-tap effect presets in the Effects screen — Clean, Vocal, Acoustic, Warm Gtr, Bass DI, Crunch, Ambient. Tap to load a full tasteful config, then fine-tune any slider. Works for both mic and instrument chains.",
+  "pub_date": "2026-05-31T16:50:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qnc2THJlTHNMRWNPcjRLKzJFNGd2VXBJN2lxdlBLVmpITHlxbFlFaGpib0hCc056VlhqL08xNVA2cHNNZ3ZuTGRnZzFsOEcrWHhzZHRvaWJpYmd3WUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjc2NjE4CWZpbGU6SmFtU3luY18wLjMuODFfeDY0LXNldHVwLmV4ZQpzLzZwZnk4MEZjU29xb2cwNDV5S1JRRU12dGY4N2pOZUthdEp0ZjRtQ2l3UVJhWWpWSlFISS9naDNrOXJteVVQNlNJY1oxZEVqejl1N1ZNdHhhOVREUT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.81/JamSync_0.3.81_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjEzTCtlZWdrdDJrd1JaUWR1TnRjUGRBdkNhOTNKdjEyb3NEZC9zaDZuOXQ0NENhMXBkMm1NWU1xUVdobC9IUUQ4U0szeGhTZmN6UkFZZk5GbGlOU3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjc4MTYwCWZpbGU6SmFtU3luY18wLjMuODJfeDY0LXNldHVwLmV4ZQp4OCtaQUNpNDg5RzZ2N0NyWHVwOVJHREZITDFpTkVQQ2JHRFVRZ0dDdkpVUzlBd0RweTNBV2gwM2VESEhyUk0rWVZIQ252dmxyVVJ6L0hxTmNsTklCUT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.82/JamSync_0.3.82_x64-setup.exe"
     }
   }
 }
