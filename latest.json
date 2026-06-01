@@ -1,11 +1,11 @@
 {
-  "version": "0.3.83",
-  "notes": "v0.3.83: Single-channel Input volume fader now works (backend never applied mic_volume in single-channel mode). Pop-out video: Picture-in-Picture button gives a native always-on-top floating window of the peer video (Discord-style).",
-  "pub_date": "2026-05-31T17:25:00Z",
+  "version": "0.3.84",
+  "notes": "v0.3.84: Reconnect after leaving or restarting now works. STUN retries while WiFi comes back up (no more 'all STUN servers failed' on rejoin) and falls back to a free port if the old one is busy. When your peer drops you now get a 'Lost connection' banner that tells you both to reconnect with the same code. A broken video source (e.g. OBS virtual camera) no longer locks you out: it resets to the default camera, and you can pick a camera source BEFORE turning video on. Single-channel Input volume fader and Picture-in-Picture pop-out from the prior build are included.",
+  "pub_date": "2026-05-31T23:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjdyWDN0eGhTWlBMYWU4TENRMzJZWkllYkVwK2pCemVrMDBIanJyR0xBNWlSQ0E5QVd0STZtYXdnY296RUhVVEdhUElUbmdaakpNZngvME5PVzhPVUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjgxMDA5CWZpbGU6SmFtU3luY18wLjMuODNfeDY0LXNldHVwLmV4ZQorVk5keDh5MWR4QXFjVlVUZ3RLRkpWa0lndlVvVTBQTlJOdXRlVWs1UmVKVFROYkFETENMN01NYVcwL3k5L1NLSVQxbm92Rml2MW96WlN1QUNjWk5Bdz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.83/JamSync_0.3.83_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjhQb0RxYllUQTRkYUxSRnpUTThGa2pNVHRHZGdOaDRNWW9sTEx0TnFEa3RmVzdIaTBJL28xcTYya1Zua2loRnEzZk9mYmt6OXF5RDFrWHZBakFDdEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjgyNDYxCWZpbGU6SmFtU3luY18wLjMuODRfeDY0LXNldHVwLmV4ZQpKUkk2VXhLd0FuaW1nbVBCSWtrTms1MHJJdmFQbWRLYTNqWFF5YlRKb21YcFFPY3BWOFVEY3dFRE9MYjNqZU1kdTZLc05xQ0VsdVhZZE81bHAyVkJCZz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.84/JamSync_0.3.84_x64-setup.exe"
     }
   }
 }
