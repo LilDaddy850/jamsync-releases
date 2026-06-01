@@ -1,11 +1,11 @@
 {
-  "version": "0.3.77",
-  "notes": "v0.3.77: VHS/wow-flutter audio fix. The latency watchdog was continuously decimating ~1.5% of playback samples (5ms target + .max(1) floor, no hysteresis) — warping pitch like a warped tape. Replaced with a hysteresis band that only drains on genuine runaway latency (>30ms), in whole frames, down to 15ms. In normal operation it never fires → v0.2.x-clean pitch restored, latency still bounded. Confirmed via multi-agent root-cause audit.",
-  "pub_date": "2026-05-31T14:55:00Z",
+  "version": "0.3.78",
+  "notes": "v0.3.78: Single-channel input now has an Input volume fader (was hidden in single-channel mode). Overflow stats only flag red when actively climbing, so the harmless one-time startup overflow no longer shows a scary red number.",
+  "pub_date": "2026-05-31T15:30:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjVYZnJhM0E1cithWXpMRE9GNnFvM1ZlR1RZNDJmZkNmcDkzUjlHZDZjOXd5NDA0dDZaelB4T1ZxODJNVFlybmlXWlhBdXJESnZzeEl1QzF6cEtKb0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjcyODQwCWZpbGU6SmFtU3luY18wLjMuNzdfeDY0LXNldHVwLmV4ZQpEbHVONFFrZkZMWjlsRXlDOG5UMzJvYXA4R056TWhzbkt3TmVWNUFTZWlrc3pJVWFMYnoyZ1YwMU5sSnB3dTJVZHpkVlpBZFM1YVlMU2pyYkxxL2NBZz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.77/JamSync_0.3.77_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QnhuR0FVeFp6clJsNlRtYzI1QzN6ektCSU92bFE2SUc3L3JYOTl2TGZLSjRCRWtHendCOVV2Wklwb25kaXJhayt2MjViemdiaXQ3OEhIa3lCbWVxRUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjc0NDkxCWZpbGU6SmFtU3luY18wLjMuNzhfeDY0LXNldHVwLmV4ZQpuYkk0T1JGMVVSNllsRnVSdVlsOWV4SzhnU2F0aEV0NUV2ZkJwd3Y0TWtWWXNVMTljbHFaQ1Q0N3VPK3RwblF4UWd3UHJKM1BDV0xYbVJNNGFsV2VCZz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.78/JamSync_0.3.78_x64-setup.exe"
     }
   }
 }
