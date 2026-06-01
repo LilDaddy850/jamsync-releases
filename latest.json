@@ -1,11 +1,11 @@
 {
-  "version": "0.3.82",
-  "notes": "v0.3.82: One-tap effect presets in the Effects screen — Clean, Vocal, Acoustic, Warm Gtr, Bass DI, Crunch, Ambient. Tap to load a full tasteful config, then fine-tune any slider. Works for both mic and instrument chains.",
-  "pub_date": "2026-05-31T16:50:00Z",
+  "version": "0.3.83",
+  "notes": "v0.3.83: Single-channel Input volume fader now works (backend never applied mic_volume in single-channel mode). Pop-out video: Picture-in-Picture button gives a native always-on-top floating window of the peer video (Discord-style).",
+  "pub_date": "2026-05-31T17:25:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjEzTCtlZWdrdDJrd1JaUWR1TnRjUGRBdkNhOTNKdjEyb3NEZC9zaDZuOXQ0NENhMXBkMm1NWU1xUVdobC9IUUQ4U0szeGhTZmN6UkFZZk5GbGlOU3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjc4MTYwCWZpbGU6SmFtU3luY18wLjMuODJfeDY0LXNldHVwLmV4ZQp4OCtaQUNpNDg5RzZ2N0NyWHVwOVJHREZITDFpTkVQQ2JHRFVRZ0dDdkpVUzlBd0RweTNBV2gwM2VESEhyUk0rWVZIQ252dmxyVVJ6L0hxTmNsTklCUT09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.82/JamSync_0.3.82_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjdyWDN0eGhTWlBMYWU4TENRMzJZWkllYkVwK2pCemVrMDBIanJyR0xBNWlSQ0E5QVd0STZtYXdnY296RUhVVEdhUElUbmdaakpNZngvME5PVzhPVUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjgxMDA5CWZpbGU6SmFtU3luY18wLjMuODNfeDY0LXNldHVwLmV4ZQorVk5keDh5MWR4QXFjVlVUZ3RLRkpWa0lndlVvVTBQTlJOdXRlVWs1UmVKVFROYkFETENMN01NYVcwL3k5L1NLSVQxbm92Rml2MW96WlN1QUNjWk5Bdz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.83/JamSync_0.3.83_x64-setup.exe"
     }
   }
 }
