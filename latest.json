@@ -1,11 +1,11 @@
 {
-  "version": "0.3.85",
-  "notes": "v0.3.85: Reconnect fixed at the root. STUN no longer mistakes the other peer's still-flowing audio for the STUN reply, so you can disconnect and rejoin without 'all STUN servers failed' (no PC restart needed). Video clip saving after toggling video off then on is fixed: the rolling-WAV lifecycle is race-proofed, a recorder thread/handle leak that orphaned .jamsync_rolling_*.wav files is fixed, and ffmpeg producing an empty clip now errors instead of faking success. Any remaining clip failure shows a specific on-screen reason instead of failing silently.",
-  "pub_date": "2026-06-01T04:15:00Z",
+  "version": "0.3.86",
+  "notes": "v0.3.86: SEAMLESS REJOIN. When your partner drops (app crash, PC restart, network blip), your session now waits up to 10 minutes with a live countdown while they come back — a one-tap 'Rejoin last session' button reconnects them and audio snaps back automatically. Network blips where both sides drop self-heal with zero clicks. The audio hot path is untouched (a single atomic read per packet). Also: relay-mode sessions finally show the lost-connection banner, and rejoin attempts that can't re-establish a direct connection give a clear error instead of hanging.",
+  "pub_date": "2026-07-06T22:15:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjFzam9CLzh2b0N2ZXlOUTU2K3dSaFR0SDdsSlFXU1E4Q0svSHlaOXMzUXp1dlczcGE5VEdydyt1WWdiNEJhYUkwTVdqdmFFNWRQOTJWTzZvOXR4alFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjg2MzYzCWZpbGU6SmFtU3luY18wLjMuODVfeDY0LXNldHVwLmV4ZQpxbS9PdlRMSlMyUjRGOGhoN01Md00vVXFscjhlU1NGZ1RyZU96VExaTGQ5UGlGY2YyZ2RseW9ZOEE1VEp6elJOd2cyWkNuUCtkUmVRLzZCUnU1R0xBdz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.85/JamSync_0.3.85_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qi9NWVE3RVMvckhGOStaQStHVjFpT1JOTUNTOXU2ZmNvUmorUXB1VWIvLzNtMkpFVU9XV2ZzbHZMOEpCNDhYZVMzQ3JPeCtzMVkxV2VvMDRKWUNtQWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMzc2MDg3CWZpbGU6SmFtU3luY18wLjMuODZfeDY0LXNldHVwLmV4ZQowN1pCZEZBbDkvQ1hjVkovakswNHFOdCtENWcwbTV0K3dhaCsyUTJDY2JyajQ5cHB6RVhiV0xBR3BKRStQMVdldHp1SUtpUnc4QndyajlIb2p5aVdBdz09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.86/JamSync_0.3.86_x64-setup.exe"
     }
   }
 }
