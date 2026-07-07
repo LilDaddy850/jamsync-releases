@@ -1,11 +1,11 @@
 {
-  "version": "0.3.86",
-  "notes": "v0.3.86: SEAMLESS REJOIN. When your partner drops (app crash, PC restart, network blip), your session now waits up to 10 minutes with a live countdown while they come back — a one-tap 'Rejoin last session' button reconnects them and audio snaps back automatically. Network blips where both sides drop self-heal with zero clicks. The audio hot path is untouched (a single atomic read per packet). Also: relay-mode sessions finally show the lost-connection banner, and rejoin attempts that can't re-establish a direct connection give a clear error instead of hanging.",
-  "pub_date": "2026-07-06T22:15:00Z",
+  "version": "0.3.87",
+  "notes": "v0.3.87: Hardened seamless rejoin (adversarial-review fixes on 0.3.86). The rejoin retarget now adopts the address the returning peer's hole-punches actually arrive from (ground truth) and otherwise mirrors the original session's proven path — never a blind same-IP LAN guess, so the 'same WiFi, no audio' bug class stays dead. A disconnect can no longer spawn a phantom room-camper; a session that comes back to life after the 10-minute window recovers instead of being killed; relay mode no longer shows a clock-skew latency number; and the legacy red banner can't flash before the amber waiting banner.",
+  "pub_date": "2026-07-07T05:05:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3Qi9NWVE3RVMvckhGOStaQStHVjFpT1JOTUNTOXU2ZmNvUmorUXB1VWIvLzNtMkpFVU9XV2ZzbHZMOEpCNDhYZVMzQ3JPeCtzMVkxV2VvMDRKWUNtQWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMzc2MDg3CWZpbGU6SmFtU3luY18wLjMuODZfeDY0LXNldHVwLmV4ZQowN1pCZEZBbDkvQ1hjVkovakswNHFOdCtENWcwbTV0K3dhaCsyUTJDY2JyajQ5cHB6RVhiV0xBR3BKRStQMVdldHp1SUtpUnc4QndyajlIb2p5aVdBdz09Cg==",
-      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.86/JamSync_0.3.86_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlpCZXhTQ1V3QjJ3YzZ2YkU2c2RGeStDaTNYcGhNRmttRzJnYWhZT1l5dkxMK2p2c1V2ZlorcFZWQWkrUTlYcEd3cnpNM3o2V21ycGR6dVcyVU83Undvb0hrQmVGN3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNDAwNDU2CWZpbGU6SmFtU3luY18wLjMuODdfeDY0LXNldHVwLmV4ZQpscFlBV1pveTZkcFptUEdTbURQSmRWMklPSnZSUnZzb0dOWTVxQndSWDZWQzVzek8zOStrOTRnRTYzdU9lN1BtTUYzUXFBQU1TNDVkekdjSTE5TFZCQT09Cg==",
+      "url": "https://github.com/LilDaddy850/jamsync-releases/releases/download/v0.3.87/JamSync_0.3.87_x64-setup.exe"
     }
   }
 }
